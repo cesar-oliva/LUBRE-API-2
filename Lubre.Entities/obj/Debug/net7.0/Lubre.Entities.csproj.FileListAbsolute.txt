@@ -1,0 +1,15 @@
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.csproj.AssemblyReference.cache
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.AssemblyInfoInputs.cache
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.AssemblyInfo.cs
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.csproj.CoreCompileInputs.cache
+C:\Users\cesar\Desktop\API\Lubre.Entities\bin\Debug\net7.0\Lubre.Entities.deps.json
+C:\Users\cesar\Desktop\API\Lubre.Entities\bin\Debug\net7.0\Lubre.Entities.dll
+C:\Users\cesar\Desktop\API\Lubre.Entities\bin\Debug\net7.0\Lubre.Entities.pdb
+C:\Users\cesar\Desktop\API\Lubre.Entities\bin\Debug\net7.0\Lubre.Abstractions.dll
+C:\Users\cesar\Desktop\API\Lubre.Entities\bin\Debug\net7.0\Lubre.Abstractions.pdb
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.csproj.CopyComplete
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.dll
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\refint\Lubre.Entities.dll
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.pdb
+C:\Users\cesar\Desktop\API\Lubre.Entities\obj\Debug\net7.0\ref\Lubre.Entities.dll

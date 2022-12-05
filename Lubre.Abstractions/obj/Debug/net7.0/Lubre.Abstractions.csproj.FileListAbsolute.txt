@@ -1,0 +1,12 @@
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\bin\Debug\net7.0\Lubre.Abstractions.deps.json
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\bin\Debug\net7.0\Lubre.Abstractions.dll
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\bin\Debug\net7.0\Lubre.Abstractions.pdb
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.csproj.AssemblyReference.cache
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.AssemblyInfoInputs.cache
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.AssemblyInfo.cs
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.dll
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\refint\Lubre.Abstractions.dll
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.pdb
+C:\Users\cesar\Desktop\API\Lubre.Abstractions\obj\Debug\net7.0\ref\Lubre.Abstractions.dll

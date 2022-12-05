@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+     <ProjectReference Include="..\Lubre.Abstractions\Lubre.Abstractions.csproj" />
+     <ProjectReference Include="..\Lubre.Repository\Lubre.Repository.csproj" />
+      <ProjectReference Include="..\Lubre.Entities\Lubre.Entities.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Lubre.Application/1.0.0": {
+        "dependencies": {
+          "Lubre.Abstractions": "1.0.0",
+          "Lubre.Entities": "1.0.0",
+          "Lubre.Repository": "1.0.0"
+        },
+        "runtime": {
+          "Lubre.Application.dll": {}
+        }
+      },
+      "Lubre.Abstractions/1.0.0": {
+        "runtime": {
+          "Lubre.Abstractions.dll": {}
+        }
+      },
+      "Lubre.Entities/1.0.0": {
+        "dependencies": {
+          "Lubre.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "Lubre.Entities.dll": {}
+        }
+      },
+      "Lubre.Repository/1.0.0": {
+        "dependencies": {
+          "Lubre.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "Lubre.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lubre.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lubre.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lubre.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lubre.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
