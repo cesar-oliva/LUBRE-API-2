@@ -1,17 +1,34 @@
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.AssemblyReference.cache
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.AssemblyInfoInputs.cache
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.AssemblyInfo.cs
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.CoreCompileInputs.cache
-C:\Users\cesar\Desktop\API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.deps.json
-C:\Users\cesar\Desktop\API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.dll
-C:\Users\cesar\Desktop\API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.pdb
-C:\Users\cesar\Desktop\API\Lubre.Services\bin\Debug\net7.0\Lubre.Abstractions.dll
-C:\Users\cesar\Desktop\API\Lubre.Services\bin\Debug\net7.0\Lubre.Entities.dll
-C:\Users\cesar\Desktop\API\Lubre.Services\bin\Debug\net7.0\Lubre.Entities.pdb
-C:\Users\cesar\Desktop\API\Lubre.Services\bin\Debug\net7.0\Lubre.Abstractions.pdb
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.CopyComplete
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.dll
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\refint\Lubre.Services.dll
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.pdb
-C:\Users\cesar\Desktop\API\Lubre.Services\obj\Debug\net7.0\ref\Lubre.Services.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.deps.json
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Abstractions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Entities.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Entities.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Abstractions.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.AssemblyReference.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.GeneratedMSBuildEditorConfig.editorconfig
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.AssemblyInfoInputs.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.AssemblyInfo.cs
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.CoreCompileInputs.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.CopyComplete
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\refint\Lubre.Services.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.Services\obj\Debug\net7.0\ref\Lubre.Services.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.deps.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Services.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Abstractions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Entities.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Entities.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\bin\Debug\net7.0\Lubre.Abstractions.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.AssemblyReference.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.AssemblyInfoInputs.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.AssemblyInfo.cs
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.CoreCompileInputs.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.csproj.CopyComplete
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\refint\Lubre.Services.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\Lubre.Services.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Services\obj\Debug\net7.0\ref\Lubre.Services.dll

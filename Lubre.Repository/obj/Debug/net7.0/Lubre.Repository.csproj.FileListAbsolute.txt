@@ -1,15 +1,60 @@
-C:\Users\cesar\Desktop\API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.deps.json
-C:\Users\cesar\Desktop\API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.dll
-C:\Users\cesar\Desktop\API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.pdb
-C:\Users\cesar\Desktop\API\Lubre.Repository\bin\Debug\net7.0\Lubre.Abstractions.dll
-C:\Users\cesar\Desktop\API\Lubre.Repository\bin\Debug\net7.0\Lubre.Abstractions.pdb
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.AssemblyReference.cache
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.AssemblyInfoInputs.cache
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.AssemblyInfo.cs
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.CoreCompileInputs.cache
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.CopyComplete
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.dll
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\refint\Lubre.Repository.dll
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.pdb
-C:\Users\cesar\Desktop\API\Lubre.Repository\obj\Debug\net7.0\ref\Lubre.Repository.dll
+C:/Users/cesar/Desktop/API/Lubre.Repository/bin/Debug/net7.0/Lubre.Repository.deps.json
+C:/Users/cesar/Desktop/API/Lubre.Repository/bin/Debug/net7.0/Lubre.Repository.dll
+C:/Users/cesar/Desktop/API/Lubre.Repository/bin/Debug/net7.0/Lubre.Repository.pdb
+C:/Users/cesar/Desktop/API/Lubre.Repository/bin/Debug/net7.0/Lubre.Abstractions.dll
+C:/Users/cesar/Desktop/API/Lubre.Repository/bin/Debug/net7.0/Lubre.Abstractions.pdb
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.csproj.AssemblyReference.cache
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.AssemblyInfoInputs.cache
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.AssemblyInfo.cs
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.csproj.CoreCompileInputs.cache
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.csproj.CopyComplete
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.dll
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/refint/Lubre.Repository.dll
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.pdb
+C:/Users/cesar/Desktop/API/Lubre.Repository/obj/Debug/net7.0/ref/Lubre.Repository.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/bin/Debug/net7.0/Lubre.Repository.deps.json
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/bin/Debug/net7.0/Lubre.Repository.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/bin/Debug/net7.0/Lubre.Repository.pdb
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/bin/Debug/net7.0/Lubre.Abstractions.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/bin/Debug/net7.0/Lubre.Abstractions.pdb
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.csproj.AssemblyReference.cache
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.AssemblyInfoInputs.cache
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.AssemblyInfo.cs
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.csproj.CoreCompileInputs.cache
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.csproj.CopyComplete
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/refint/Lubre.Repository.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/Lubre.Repository.pdb
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.Repository/obj/Debug/net7.0/ref/Lubre.Repository.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.AssemblyReference.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.GeneratedMSBuildEditorConfig.editorconfig
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.AssemblyInfoInputs.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.AssemblyInfo.cs
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.CoreCompileInputs.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\refint\Lubre.Repository.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.deps.json
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Abstractions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Abstractions.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.CopyComplete
+G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\ref\Lubre.Repository.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.deps.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Abstractions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Abstractions.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.AssemblyReference.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.AssemblyInfoInputs.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.AssemblyInfo.cs
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.CoreCompileInputs.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.CopyComplete
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\refint\Lubre.Repository.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\ref\Lubre.Repository.dll

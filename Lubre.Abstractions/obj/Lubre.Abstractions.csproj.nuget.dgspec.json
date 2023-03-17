@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cesar\\Desktop\\API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {}
+    "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cesar\\Desktop\\API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {
+    "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cesar\\Desktop\\API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
+        "projectUniqueName": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
         "projectName": "Lubre.Abstractions",
-        "projectPath": "C:\\Users\\cesar\\Desktop\\API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cesar\\Desktop\\API\\Lubre.Abstractions\\obj\\",
+        "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

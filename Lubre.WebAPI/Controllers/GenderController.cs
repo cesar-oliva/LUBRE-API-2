@@ -1,6 +1,6 @@
 using Lubre.Abstractions;
 using Lubre.Entities;
-using Lubre.WebAPI.DataTransferObject;
+using Lubre.WebAPI.DataTransferObject.Incoming;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Lubre.WebAPI.Controllers;
@@ -37,7 +37,7 @@ public class GenderController : Controller
     {
         var g = new Gender()
         {
-            Name = dto.Name,
+            Name = dto.GenderName,
         };
         await _gender.SaveAsync(g);
         return Ok(g);
@@ -53,7 +53,7 @@ public class GenderController : Controller
         var g = _gender.GetById(id);
         if (g != null)
         {
-            g.Name = dto.Name;
+            g.Name = dto.GenderName;
         }
         await _gender.SaveAsync(g);
         return Ok(g);

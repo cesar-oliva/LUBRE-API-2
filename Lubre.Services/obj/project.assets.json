@@ -155,39 +155,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cesar\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Cesar\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cesar\\Desktop\\API\\Lubre.Services\\Lubre.Services.csproj",
+      "projectUniqueName": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Services\\Lubre.Services.csproj",
       "projectName": "Lubre.Services",
-      "projectPath": "C:\\Users\\cesar\\Desktop\\API\\Lubre.Services\\Lubre.Services.csproj",
-      "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cesar\\Desktop\\API\\Lubre.Services\\obj\\",
+      "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Services\\Lubre.Services.csproj",
+      "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
+      "outputPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Services\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\cesar\\Desktop\\API\\Lubre.Entities\\Lubre.Entities.csproj": {
-              "projectPath": "C:\\Users\\cesar\\Desktop\\API\\Lubre.Entities\\Lubre.Entities.csproj"
+            "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
+              "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj"
             }
           }
         }

@@ -1,19 +1,76 @@
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.deps.json
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.dll
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.pdb
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Abstractions.dll
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Entities.dll
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Entities.pdb
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Abstractions.pdb
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.AssemblyReference.cache
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.AssemblyInfoInputs.cache
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.AssemblyInfo.cs
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.CoreCompileInputs.cache
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.CopyComplete
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.dll
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\refint\Lubre.DataAccess.dll
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.pdb
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\ref\Lubre.DataAccess.dll
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.runtimeconfig.json
-C:\Users\cesar\Desktop\API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.genruntimeconfig.cache
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.DataAccess.deps.json
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.DataAccess.dll
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.DataAccess.pdb
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.Abstractions.dll
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.Entities.dll
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.Entities.pdb
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.Abstractions.pdb
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.csproj.AssemblyReference.cache
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.AssemblyInfoInputs.cache
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.AssemblyInfo.cs
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.csproj.CoreCompileInputs.cache
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.csproj.CopyComplete
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.dll
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/refint/Lubre.DataAccess.dll
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.pdb
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/ref/Lubre.DataAccess.dll
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.DataAccess.runtimeconfig.json
+C:/Users/cesar/Desktop/API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.genruntimeconfig.cache
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.DataAccess.deps.json
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.DataAccess.runtimeconfig.json
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.DataAccess.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.DataAccess.pdb
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.Abstractions.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.Entities.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.Entities.pdb
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/bin/Debug/net7.0/Lubre.Abstractions.pdb
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.csproj.AssemblyReference.cache
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.AssemblyInfoInputs.cache
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.AssemblyInfo.cs
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.csproj.CoreCompileInputs.cache
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.csproj.CopyComplete
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/refint/Lubre.DataAccess.dll
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.pdb
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/Lubre.DataAccess.genruntimeconfig.cache
+/media/cesar/UTN/Proyectos Linux/LUBRE-API/Lubre.DataAccess/obj/Debug/net7.0/ref/Lubre.DataAccess.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\refint\Lubre.DataAccess.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.AssemblyReference.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.AssemblyInfoInputs.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.AssemblyInfo.cs
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.CoreCompileInputs.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.deps.json
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.runtimeconfig.json
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Abstractions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Entities.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Entities.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Abstractions.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.CopyComplete
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.genruntimeconfig.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\ref\Lubre.DataAccess.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.deps.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.runtimeconfig.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.DataAccess.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Abstractions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Entities.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Entities.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\bin\Debug\net7.0\Lubre.Abstractions.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.AssemblyReference.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.AssemblyInfoInputs.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.AssemblyInfo.cs
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.CoreCompileInputs.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.csproj.CopyComplete
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\refint\Lubre.DataAccess.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\Lubre.DataAccess.genruntimeconfig.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.DataAccess\obj\Debug\net7.0\ref\Lubre.DataAccess.dll

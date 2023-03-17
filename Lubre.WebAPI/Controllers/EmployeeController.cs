@@ -2,7 +2,8 @@
 using AutoMapper;
 using Lubre.Abstractions;
 using Lubre.Entities;
-using Lubre.WebAPI.DataTransferObject;
+using Lubre.WebAPI.DataTransferObject.Incoming;
+using Lubre.WebAPI.DataTransferObject.Outgoing;
 using Microsoft.AspNetCore.Mvc;
 using System.Web.Http.Description;
 
@@ -14,6 +15,9 @@ namespace Lubre.WebAPI.Controllers;
     public class EmployeeController : Controller
     {
         IApplication<Employee> _employee;
+        IApplication<Gender> _gender;
+        IApplication<Unit> _unit;
+        IApplication<Position> _position;
         private readonly IMapper _mapper;
         /// <summary>
         /// receives by parameter the application in Employee and we inject it
@@ -23,9 +27,12 @@ namespace Lubre.WebAPI.Controllers;
         /// </remarks>
         /// <param name="employee"></param>
         /// <param name="mapper"></param>
-        public EmployeeController(IApplication<Employee> employee,IMapper mapper)
+        public EmployeeController(IApplication<Employee> employee,IApplication<Gender> gender,IApplication<Unit> unit,IApplication<Position> position,IMapper mapper)
         {
             _employee = employee;
+            _gender = gender;
+            _unit = unit;
+            _position = position;
             _mapper = mapper;
         }
         /// <summary>
@@ -33,17 +40,22 @@ namespace Lubre.WebAPI.Controllers;
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [ResponseType(typeof(RegisterEmployeeRequestDTO))]
+        [ResponseType(typeof(ResponseEmployeeRequestDTO))]
         public async Task<IActionResult> Get()
         {
-            List<RegisterEmployeeRequestDTO> employeeDTO = new();
-            var employee = await _employee.GetAllAsync();
-     
+            List<ResponseEmployeeRequestDTO> employeeDTO = new();
+            var employee = await _employee.GetAllAsync();   
+            var gender = await _gender.GetAllAsync();  
+            var unit = await _unit.GetAllAsync();  
+            var position = await _position.GetAllAsync();  
             foreach (var item in employee)
             {
-               employeeDTO.Add( _mapper.Map<RegisterEmployeeRequestDTO>(item));
+                var newEmployeeDto = _mapper.Map<ResponseEmployeeRequestDTO>(item);
+                newEmployeeDto.GenderName = _gender.GetById(item.GenderId).Name;
+                newEmployeeDto.UnitName = _unit.GetById(item.UnitId).Name;
+                newEmployeeDto.PositionName = _position.GetById(item.PositionId).Name;
+                employeeDTO.Add(newEmployeeDto);
             }
-
             return Ok(employeeDTO);
         }
         /// <summary>
@@ -67,10 +79,14 @@ namespace Lubre.WebAPI.Controllers;
         [HttpPost]
         public async Task<IActionResult> Save(RegisterEmployeeRequestDTO employeeDto) 
         {
-            Employee employee = _mapper.Map<Employee>(employeeDto);
-            employee.Id = new Guid();
-            await _employee.SaveAsync(employee);
-            return Ok(employee);
+            if(ModelState.IsValid){
+                Employee employee = _mapper.Map<Employee>(employeeDto);
+                await _employee.SaveAsync(employee);
+                var newEmployee = _mapper.Map<ResponseEmployeeRequestDTO>(employee);
+                return CreatedAtAction("GetOne", new { id = newEmployee.Id }, newEmployee);
+                //return Ok(newEmployee);
+            }
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
         }
 
         /// <summary>
@@ -87,7 +103,7 @@ namespace Lubre.WebAPI.Controllers;
         [Route("{id}")]
         public async Task<IActionResult> Update(RegisterEmployeeRequestDTO dto)
         {
-            if (dto.Id.Equals(Guid.Empty)|| dto == null) return NotFound();
+            //if (dto.Id.Equals(Guid.Empty)|| dto == null) return NotFound();
             var employee = _mapper.Map<Employee>(dto);
             await _employee.UpdateAsync(employee);
             return Ok(employee);

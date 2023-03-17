@@ -15,8 +15,7 @@ namespace Lubre.Entities;
     [Required]
     [MaxLength(50)]
     public string LastName { get; set; } //apellido
-    [Required]
-    public Guid GenderId { get; set; } //Id Sexo
+
     [Required]
     public DateTime DateOfBirth { get; set; } //fecha de nacimiento
     [Required]
@@ -27,14 +26,16 @@ namespace Lubre.Entities;
     [DataType(DataType.EmailAddress, ErrorMessage = "E-mail is not valid")]
     public string EmailAddress { get; set; }
     public string PhoneNumber { get; set; }
-    [ForeignKey("GenderId")]
-    public virtual Gender Gender { get; set; }
+    [Required]
+    public Guid GenderId { get; set; } //Id Sexo
+    public Gender Gender { get; set; }
 
-    public string fullname (){
-        return Name + " " + LastName;
+    public virtual string getFullName (){
+        return "";
+        
     }
-    public int age(){
-        return DateTime.Now.Year - DateOfBirth.Year;       
+    public virtual int getAge(){
+        return 0;
     }
 
 }

@@ -11,7 +11,6 @@ public class ApplicationDbContext : IdentityDbContext
     ///that they persist
     /// </summary> 
     public DbSet<Gender> Genders { get; set; }
-    public DbSet<Person> People { get; set; }
     public DbSet<Employee> Employees { get; set; }
     public DbSet<Unit> Units { get; set; }
     public DbSet<Position> Positions { get; set; }

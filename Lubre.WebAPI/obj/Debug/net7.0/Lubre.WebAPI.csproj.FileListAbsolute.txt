@@ -1,99 +1,198 @@
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.AssemblyReference.cache
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.AssemblyInfoInputs.cache
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.AssemblyInfo.cs
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.CoreCompileInputs.cache
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\appsettings.json
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.exe
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.deps.json
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.runtimeconfig.json
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.pdb
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Npgsql.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Abstractions.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Application.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.DataAccess.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Entities.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Repository.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.DataAccess.pdb
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Abstractions.pdb
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Repository.pdb
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Application.pdb
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Entities.pdb
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Lubre.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.Lubre.WebAPI.props
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Lubre.WebAPI.props
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Lubre.WebAPI.props
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\scopedcss\bundle\Lubre.WebAPI.styles.css
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.CopyComplete
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\refint\Lubre.WebAPI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.pdb
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.genruntimeconfig.cache
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\ref\Lubre.WebAPI.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.xml
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.xml
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Humanizer.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\AutoMapper.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Net.Http.Formatting.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\System.Web.Http.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPi\bin\Debug\net7.0\Lubre.Services.dll
-C:\Users\cesar\Desktop\API\Lubre.WebAPi\bin\Debug\net7.0\Lubre.Services.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\appsettings.json
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.exe
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.deps.json
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.runtimeconfig.json
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.xml
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\AutoMapper.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Humanizer.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Web.Http.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Npgsql.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Abstractions.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Application.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.DataAccess.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Entities.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Repository.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Services.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.DataAccess.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Abstractions.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Repository.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Application.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Services.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Entities.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.AssemblyReference.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.AssemblyInfoInputs.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.AssemblyInfo.cs
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.CoreCompileInputs.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Lubre.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.Lubre.WebAPI.props
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Lubre.WebAPI.props
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Lubre.WebAPI.props
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\scopedcss\bundle\Lubre.WebAPI.styles.css
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.CopyComplete
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\refint\Lubre.WebAPI.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.xml
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.genruntimeconfig.cache
+G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\ref\Lubre.WebAPI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\appsettings.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.exe
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.deps.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.runtimeconfig.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.xml
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\AutoMapper.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Humanizer.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Web.Http.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Npgsql.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Abstractions.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Application.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.DataAccess.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Entities.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Repository.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Services.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.DataAccess.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Abstractions.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Repository.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Application.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Services.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.Entities.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.AssemblyReference.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.AssemblyInfoInputs.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.AssemblyInfo.cs
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.CoreCompileInputs.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.Lubre.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.Lubre.WebAPI.props
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Lubre.WebAPI.props
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Lubre.WebAPI.props
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\scopedcss\bundle\Lubre.WebAPI.styles.css
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.csproj.CopyComplete
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\refint\Lubre.WebAPI.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.xml
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.genruntimeconfig.cache
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\ref\Lubre.WebAPI.dll

@@ -9,5 +9,4 @@ public class Unit:Entity
     public string Name { get; set; }
 
     public virtual ICollection<Employee>? Employees { get; set; }
-
 }

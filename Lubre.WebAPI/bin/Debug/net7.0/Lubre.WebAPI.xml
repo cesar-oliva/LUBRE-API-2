@@ -4,7 +4,7 @@
         <name>Lubre.WebAPI</name>
     </assembly>
     <members>
-        <member name="M:Lubre.WebAPI.Controllers.EmployeeController.#ctor(Lubre.Abstractions.IApplication{Lubre.Entities.Employee},AutoMapper.IMapper)">
+        <member name="M:Lubre.WebAPI.Controllers.EmployeeController.#ctor(Lubre.Abstractions.IApplication{Lubre.Entities.Employee},Lubre.Abstractions.IApplication{Lubre.Entities.Gender},Lubre.Abstractions.IApplication{Lubre.Entities.Unit},Lubre.Abstractions.IApplication{Lubre.Entities.Position},AutoMapper.IMapper)">
             <summary>
             receives by parameter the application in Employee and we inject it
             </summary>
@@ -32,7 +32,7 @@
             <response code="200"> OK. returns the requested object </response>
             <response code="400"> NotFound. returns the requested object was not found </response>
         </member>
-        <member name="M:Lubre.WebAPI.Controllers.EmployeeController.Update(Lubre.WebAPI.DataTransferObject.RegisterEmployeeRequestDTO)">
+        <member name="M:Lubre.WebAPI.Controllers.EmployeeController.Update(Lubre.WebAPI.DataTransferObject.Incoming.RegisterEmployeeRequestDTO)">
             <summary>
             update a employee objetc by id
             </summary>

@@ -17,9 +17,6 @@ public class Employee : Person, IEntity
     public Unit Unit { get; set; }
     public Guid PositionId { get; set; }
     public Position Position { get; set; }
+    public bool Status { get; set; }
     public virtual ICollection<Document> Documents { get; set; }
-
-    public int antiquity(){
-        return DateTime.Now.Year - StartDate.Year;       
-    }
 }
