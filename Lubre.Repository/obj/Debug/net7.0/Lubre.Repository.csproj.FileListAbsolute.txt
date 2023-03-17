@@ -43,6 +43,7 @@ G:\Proyectos Linux\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Abstraction
 G:\Proyectos Linux\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Abstractions.pdb
 G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.csproj.CopyComplete
 G:\Proyectos Linux\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\ref\Lubre.Repository.dll
+<<<<<<< HEAD
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.deps.json
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.pdb
@@ -58,3 +59,5 @@ D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\refint\Lubre.Repository.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.pdb
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\ref\Lubre.Repository.dll
+=======
+>>>>>>> ea6cf059ce23463c2a7f80812d187a0214e2d595

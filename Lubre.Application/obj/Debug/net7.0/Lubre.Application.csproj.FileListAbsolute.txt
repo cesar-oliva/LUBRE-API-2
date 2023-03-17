@@ -17,6 +17,7 @@ G:\Proyectos Linux\LUBRE-API\Lubre.Application\obj\Debug\net7.0\Lubre.Applicatio
 G:\Proyectos Linux\LUBRE-API\Lubre.Application\obj\Debug\net7.0\refint\Lubre.Application.dll
 G:\Proyectos Linux\LUBRE-API\Lubre.Application\obj\Debug\net7.0\Lubre.Application.pdb
 G:\Proyectos Linux\LUBRE-API\Lubre.Application\obj\Debug\net7.0\ref\Lubre.Application.dll
+<<<<<<< HEAD
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\bin\Debug\net7.0\Lubre.Application.deps.json
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\bin\Debug\net7.0\Lubre.Application.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\bin\Debug\net7.0\Lubre.Application.pdb
@@ -36,3 +37,5 @@ D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\obj\Debug\net7
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\obj\Debug\net7.0\refint\Lubre.Application.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\obj\Debug\net7.0\Lubre.Application.pdb
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\obj\Debug\net7.0\ref\Lubre.Application.dll
+=======
+>>>>>>> ea6cf059ce23463c2a7f80812d187a0214e2d595

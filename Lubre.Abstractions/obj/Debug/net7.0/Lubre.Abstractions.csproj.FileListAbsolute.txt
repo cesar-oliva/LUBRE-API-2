@@ -34,6 +34,7 @@ G:\Proyectos Linux\LUBRE-API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstracti
 G:\Proyectos Linux\LUBRE-API\Lubre.Abstractions\obj\Debug\net7.0\refint\Lubre.Abstractions.dll
 G:\Proyectos Linux\LUBRE-API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.pdb
 G:\Proyectos Linux\LUBRE-API\Lubre.Abstractions\obj\Debug\net7.0\ref\Lubre.Abstractions.dll
+<<<<<<< HEAD
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Abstractions\bin\Debug\net7.0\Lubre.Abstractions.deps.json
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Abstractions\bin\Debug\net7.0\Lubre.Abstractions.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Abstractions\bin\Debug\net7.0\Lubre.Abstractions.pdb
@@ -46,3 +47,5 @@ D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Abstractions\obj\Debug\net
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Abstractions\obj\Debug\net7.0\refint\Lubre.Abstractions.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Abstractions\obj\Debug\net7.0\Lubre.Abstractions.pdb
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Abstractions\obj\Debug\net7.0\ref\Lubre.Abstractions.dll
+=======
+>>>>>>> ea6cf059ce23463c2a7f80812d187a0214e2d595

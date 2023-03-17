@@ -8,5 +8,4 @@ public class Gender:Entity
 {
 [Required]
 public string Name { get; set; }
-
 }

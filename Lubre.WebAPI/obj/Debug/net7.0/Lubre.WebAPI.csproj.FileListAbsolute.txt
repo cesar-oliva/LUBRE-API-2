@@ -97,6 +97,7 @@ G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.xml
 G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.pdb
 G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.genruntimeconfig.cache
 G:\Proyectos Linux\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\ref\Lubre.WebAPI.dll
+<<<<<<< HEAD
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\appsettings.Development.json
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\appsettings.json
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\bin\Debug\net7.0\Lubre.WebAPI.exe
@@ -196,3 +197,5 @@ D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lu
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.pdb
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\Lubre.WebAPI.genruntimeconfig.cache
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.WebAPI\obj\Debug\net7.0\ref\Lubre.WebAPI.dll
+=======
+>>>>>>> ea6cf059ce23463c2a7f80812d187a0214e2d595

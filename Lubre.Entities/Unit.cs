@@ -1,6 +1,5 @@
 
 using System.ComponentModel.DataAnnotations;
-
 namespace Lubre.Entities;
 
 public class Unit:Entity

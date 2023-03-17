@@ -43,6 +43,7 @@ G:\Proyectos Linux\LUBRE-API\Lubre.Entities\bin\Debug\net7.0\Lubre.Abstractions.
 G:\Proyectos Linux\LUBRE-API\Lubre.Entities\bin\Debug\net7.0\Lubre.Abstractions.pdb
 G:\Proyectos Linux\LUBRE-API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.csproj.CopyComplete
 G:\Proyectos Linux\LUBRE-API\Lubre.Entities\obj\Debug\net7.0\ref\Lubre.Entities.dll
+<<<<<<< HEAD
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Entities\bin\Debug\net7.0\Lubre.Entities.deps.json
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Entities\bin\Debug\net7.0\Lubre.Entities.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Entities\bin\Debug\net7.0\Lubre.Entities.pdb
@@ -58,3 +59,5 @@ D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Entities\obj\Debug\net7.0\
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Entities\obj\Debug\net7.0\refint\Lubre.Entities.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Entities\obj\Debug\net7.0\Lubre.Entities.pdb
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Entities\obj\Debug\net7.0\ref\Lubre.Entities.dll
+=======
+>>>>>>> ea6cf059ce23463c2a7f80812d187a0214e2d595
