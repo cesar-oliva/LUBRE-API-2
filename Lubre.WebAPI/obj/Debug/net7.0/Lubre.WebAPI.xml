@@ -4,7 +4,7 @@
         <name>Lubre.WebAPI</name>
     </assembly>
     <members>
-        <member name="M:Lubre.WebAPI.Controllers.EmployeeController.#ctor(Lubre.Abstractions.IApplication{Lubre.Entities.Employee},Lubre.Abstractions.IApplication{Lubre.Entities.Gender},Lubre.Abstractions.IApplication{Lubre.Entities.Unit},Lubre.Abstractions.IApplication{Lubre.Entities.Position},AutoMapper.IMapper)">
+        <member name="M:Lubre.WebAPI.Controllers.EmployeeController.#ctor(Lubre.Abstractions.IApplication{Lubre.Entities.Employee},Lubre.Abstractions.IApplication{Lubre.Entities.Gender},Lubre.Abstractions.IApplication{Lubre.Entities.Address},Lubre.Abstractions.IApplication{Lubre.Entities.Unit},Lubre.Abstractions.IApplication{Lubre.Entities.Position},AutoMapper.IMapper)">
             <summary>
             receives by parameter the application in Employee and we inject it
             </summary>

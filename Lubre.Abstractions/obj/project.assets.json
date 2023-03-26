@@ -8,24 +8,31 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Cesar\\.nuget\\packages\\": {}
+    "C:\\Users\\cesar\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
+      "projectUniqueName": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
       "projectName": "Lubre.Abstractions",
-      "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
-      "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
-      "outputPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\obj\\",
+      "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
+      "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+      "outputPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,16 +66,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

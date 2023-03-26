@@ -8,7 +8,7 @@ public class RegisterEmployeeRequestDTO
     public string LastName { get; set; } //apellido
     public Guid GenderId { get; set; }
     public DateTime DateOfBirth { get; set; } //fecha de nacimiento
-    public string Address { get; set; } //direccion    
+    public Guid AddressId { get; set; } //direccion    
     public string PhotoUrl { get; set; }
     public string EmailAddress { get; set; }
     public string PhoneNumber { get; set; }

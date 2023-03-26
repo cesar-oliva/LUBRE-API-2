@@ -13,7 +13,13 @@ public class ApplicationDbContext : IdentityDbContext
     public DbSet<Gender> Genders { get; set; }
     public DbSet<Employee> Employees { get; set; }
     public DbSet<Unit> Units { get; set; }
-    public DbSet<Position> Positions { get; set; }
+     public DbSet<Position> Positions { get; set; }
+    public DbSet<State> States { get; set; }
+    public DbSet<Country> Countries { get; set; }
+    public DbSet<Town> Towns { get; set; }
+    public DbSet<City> Cities { get; set; }
+    public DbSet<Address> Addresses { get; set; }
+   
 
     /// <summary>
     /// builder apiDbContext

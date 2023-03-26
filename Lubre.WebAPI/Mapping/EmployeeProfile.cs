@@ -19,7 +19,7 @@ public class EmployeeProfile : Profile
         CreateMap<Employee, ResponseEmployeeRequestDTO>()
             .ForMember(
                 dest => dest.FullName,
-                opt => opt.MapFrom(src => src.Name.ToUpper() + " " + src.LastName.ToUpper()))
+                opt => opt.MapFrom(src => src.Name+ " " + src.LastName))
             .ForMember(
                 dest => dest.Age,
                 opt => opt.MapFrom(src => DateTime.Now.Year-src.DateOfBirth.Year))
@@ -31,7 +31,7 @@ public class EmployeeProfile : Profile
                 opt => opt.MapFrom(src => src.Unit.Name))
             .ForMember(
                 dest => dest.GenderName,
-                opt => opt.MapFrom(src => src.Gender.Name))
+                opt => opt.MapFrom(src => src.Genders.Where(g => g.Id == src.GenderId).FirstOrDefault().Name))
             .ForMember(
                 dest => dest.PositionName,
                 opt => opt.MapFrom(src => src.Position.Name));                     

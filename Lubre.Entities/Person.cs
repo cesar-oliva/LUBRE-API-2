@@ -15,12 +15,12 @@ namespace Lubre.Entities;
     [Required]
     [MaxLength(50)]
     public string LastName { get; set; } //apellido
-
     [Required]
     public DateTime DateOfBirth { get; set; } //fecha de nacimiento
     [Required]
     [MaxLength(150)]
-    public string Address { get; set; } //direccion    
+    public Guid AddressId { get; set; } //direccion    
+    public Address Address { get; set; }
     public string PhotoUrl { get; set; }
     [Required(ErrorMessage = "Field can't be empty")]
     [DataType(DataType.EmailAddress, ErrorMessage = "E-mail is not valid")]
@@ -29,13 +29,4 @@ namespace Lubre.Entities;
     [Required]
     public Guid GenderId { get; set; } //Id Sexo
     public Gender Gender { get; set; }
-
-    public virtual string getFullName (){
-        return "";
-        
-    }
-    public virtual int getAge(){
-        return 0;
-    }
-
 }

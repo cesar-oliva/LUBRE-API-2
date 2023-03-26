@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AS3AAl/vaadOkM364+c7O11HEdPNQB8905Iku9vStG/mS9b1KFlcT98FDmbXxVQ6Mgcm5YiIbVFJAZX47J/ydw==",
+  "dgSpecHash": "RTZES1P3tXuz1Nnt2Nm+jZSnK5B9EPDNydWWt1CK1GwMm6I4lSNu3cv5vP0UuZWurUHx1YNNvfS0clzodMt6PQ==",
   "success": true,
-  "projectFilePath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj",
+  "projectFilePath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Repository\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

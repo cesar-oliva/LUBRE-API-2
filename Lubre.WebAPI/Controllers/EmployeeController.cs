@@ -17,6 +17,7 @@ namespace Lubre.WebAPI.Controllers;
         IApplication<Employee> _employee;
         IApplication<Gender> _gender;
         IApplication<Unit> _unit;
+        IApplication<Address> _address;
         IApplication<Position> _position;
         private readonly IMapper _mapper;
         /// <summary>
@@ -27,10 +28,11 @@ namespace Lubre.WebAPI.Controllers;
         /// </remarks>
         /// <param name="employee"></param>
         /// <param name="mapper"></param>
-        public EmployeeController(IApplication<Employee> employee,IApplication<Gender> gender,IApplication<Unit> unit,IApplication<Position> position,IMapper mapper)
+        public EmployeeController(IApplication<Employee> employee,IApplication<Gender> gender,IApplication<Address> address,IApplication<Unit> unit,IApplication<Position> position,IMapper mapper)
         {
             _employee = employee;
             _gender = gender;
+            _address = address;
             _unit = unit;
             _position = position;
             _mapper = mapper;
@@ -44,19 +46,17 @@ namespace Lubre.WebAPI.Controllers;
         public async Task<IActionResult> Get()
         {
             List<ResponseEmployeeRequestDTO> employeeDTO = new();
-            var employee = await _employee.GetAllAsync();   
-            var gender = await _gender.GetAllAsync();  
-            var unit = await _unit.GetAllAsync();  
-            var position = await _position.GetAllAsync();  
+            var employee = await _employee.GetAllAsync();     
             foreach (var item in employee)
             {
                 var newEmployeeDto = _mapper.Map<ResponseEmployeeRequestDTO>(item);
-                newEmployeeDto.GenderName = _gender.GetById(item.GenderId).Name;
-                newEmployeeDto.UnitName = _unit.GetById(item.UnitId).Name;
-                newEmployeeDto.PositionName = _position.GetById(item.PositionId).Name;
+                //newEmployeeDto.GenderName = _gender.GetById(item.GenderId).Name;
+                //newEmployeeDto.UnitName = _unit.GetById(item.UnitId).Name;
+                //newEmployeeDto.PositionName = _position.GetById(item.PositionId).Name;
                 employeeDTO.Add(newEmployeeDto);
             }
             return Ok(employeeDTO);
+            
         }
         /// <summary>
         /// get a employee object
