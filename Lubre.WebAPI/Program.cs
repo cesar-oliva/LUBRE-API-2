@@ -1,9 +1,9 @@
 using AutoMapper;
 using Lubre.Abstractions;
-using Lubre.Application;
 using Lubre.DataAccess;
 using Lubre.Repository;
-using Lubre.WebAPI.Mapping;
+using Lubre.Repository.Abstractions;
+using Lubre.Repository.Mapping;
 using Microsoft.EntityFrameworkCore;
 //using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
@@ -38,10 +38,8 @@ builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
 
 /*When an application type object is requested, it creates the instance (dependency injection).*/
-//builder.Services.AddScoped(typeof(IApplication<>), typeof(Lubre.Application<>)); 
-builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped(typeof(IDbContext<>), typeof(DbContext<>));
-builder.Services.AddScoped(typeof(IApplication<>), typeof(Application<>));
+builder.Services.AddScoped(typeof(IEmployeeRepository), typeof(EmployeeRepository));
 
 //mapper
 var mapperConfig = new MapperConfiguration(mapperConfig =>

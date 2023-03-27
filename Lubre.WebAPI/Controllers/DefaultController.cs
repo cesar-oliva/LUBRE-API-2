@@ -9,6 +9,6 @@ public class DefaultController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
-        return Ok("Lubre.WebAPI");
+        return Ok("Lubre.WebAPI/Swagger");
     }
 }

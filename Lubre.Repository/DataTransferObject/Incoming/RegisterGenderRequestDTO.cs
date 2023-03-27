@@ -1,4 +1,4 @@
-namespace Lubre.WebAPI.DataTransferObject.Incoming;
+namespace Lubre.Repository.DataTransferObject.Incoming;
 
 public class RegisterGenderRequestDTO
 {

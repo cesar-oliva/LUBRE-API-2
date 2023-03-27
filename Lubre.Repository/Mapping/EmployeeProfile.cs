@@ -1,9 +1,9 @@
 using AutoMapper;
 using Lubre.Entities;
-using Lubre.WebAPI.DataTransferObject.Incoming;
-using Lubre.WebAPI.DataTransferObject.Outgoing;
+using Lubre.Repository.DataTransferObject.Incoming;
+using Lubre.Repository.DataTransferObject.Outgoing;
 
-namespace Lubre.WebAPI.Mapping;
+namespace Lubre.Repository.Mapping;
 public class EmployeeProfile : Profile
 {
     public EmployeeProfile()

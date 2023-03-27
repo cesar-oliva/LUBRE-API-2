@@ -61,3 +61,9 @@ D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\ref\Lubre.Repository.dll
 =======
 >>>>>>> ea6cf059ce23463c2a7f80812d187a0214e2d595
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Entities.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Entities.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.Repository.runtimeconfig.json
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.DataAccess.dll
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\bin\Debug\net7.0\Lubre.DataAccess.pdb
+D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Repository\obj\Debug\net7.0\Lubre.Repository.genruntimeconfig.cache

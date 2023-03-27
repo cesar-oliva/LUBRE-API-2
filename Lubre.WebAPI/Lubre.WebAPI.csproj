@@ -25,8 +25,6 @@
     <PackageReference Include="Npgsql" Version="7.0.0" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
-    <ProjectReference Include="..\Lubre.DataAccess\Lubre.DataAccess.csproj" />
-    <ProjectReference Include="..\Lubre.Abstractions\Lubre.Abstractions.csproj" />
     <ProjectReference Include="..\Lubre.Repository\Lubre.Repository.csproj" />
     <ProjectReference Include="..\Lubre.Application\Lubre.Application.csproj" />
     <ProjectReference Include="..\Lubre.Services\Lubre.Services.csproj" />
