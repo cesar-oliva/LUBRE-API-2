@@ -19,16 +19,19 @@ namespace Lubre.WebAPI.Controllers;
         /// </remarks>
         /// <param name="employee"></param>
         /// <param name="mapper"></param>
-        private readonly IEmployeeRepository _employee;
+        private readonly IEmployeeRepository _employeeRepository;
+        public EmployeeController(IEmployeeRepository employeeRepository)
+        {
+            _employeeRepository = employeeRepository;
+        }
         /// <summary>
         /// get a list of employee objects
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        [ResponseType(typeof(ResponseEmployeeRequestDTO))]
         public async Task<IActionResult> GetAllAsync()
         {
-           var response =  await _employee.GetAllAsync();
+           var response =  await _employeeRepository.GetAllAsync();
            if(response == null){
                 return NotFound();
            }

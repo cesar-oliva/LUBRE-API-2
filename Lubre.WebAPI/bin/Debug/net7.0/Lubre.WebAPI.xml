@@ -4,7 +4,7 @@
         <name>Lubre.WebAPI</name>
     </assembly>
     <members>
-        <member name="F:Lubre.WebAPI.Controllers.EmployeeController._employee">
+        <member name="F:Lubre.WebAPI.Controllers.EmployeeController._employeeRepository">
             <summary>
             receives by parameter the application in Employee and we inject it
             </summary>

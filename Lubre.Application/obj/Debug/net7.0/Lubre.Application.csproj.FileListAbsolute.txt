@@ -41,3 +41,5 @@ D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\obj\Debug\net7
 >>>>>>> ea6cf059ce23463c2a7f80812d187a0214e2d595
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\bin\Debug\net7.0\Lubre.DataAccess.dll
 D:\Usuarios\Cesar\Escritorio\Projects\LUBRE-API\Lubre.Application\bin\Debug\net7.0\Lubre.DataAccess.pdb
+G:\Proyectos Linux\LUBRE-API\Lubre.Application\bin\Debug\net7.0\Lubre.DataAccess.dll
+G:\Proyectos Linux\LUBRE-API\Lubre.Application\bin\Debug\net7.0\Lubre.DataAccess.pdb

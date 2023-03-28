@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3s3qkge8R6E6Q25af9byOQosqpYr4NlGmXQ6+x1jfPpo+zTJPS68aaO1LbAPmgcl778//nPORGQrcJC9EJ3O4g==",
+  "dgSpecHash": "EIAjr8rtCBpXyq7RsnwLRYQWFQGI4b7GkzpxfeGTQY0ZlMVuzkz5fab9GTks+USztI/EMgRnxopFJIuQMlUSog==",
   "success": true,
-  "projectFilePath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Services\\Lubre.Services.csproj",
+  "projectFilePath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Services\\Lubre.Services.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Cesar\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
-    "C:\\Users\\Cesar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+    "C:\\Users\\cesar\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\cesar\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

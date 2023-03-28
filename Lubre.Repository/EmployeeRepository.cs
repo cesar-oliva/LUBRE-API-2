@@ -7,7 +7,7 @@ using Lubre.Repository.DataTransferObject.Outgoing;
 
 namespace Lubre.Repository;
 
-public class EmployeeRepository : IEmployeeRepository
+public class EmployeeRepository : IEmployeeRepository, IDisposable
 {
     private readonly ApplicationDbContext _dbc;
     private readonly IMapper _mapper;
@@ -32,19 +32,17 @@ public class EmployeeRepository : IEmployeeRepository
     public async Task<IEnumerable<ResponseEmployeeRequestDTO>> GetAllAsync()
     {
         List<ResponseEmployeeRequestDTO> employeeDTO = new();
-
         var ListEmployee = await _dbc.Employees
                             .Include(u => u.Unit)
-                            .Include(p => p.Position)
-                            .Include(d => d.Documents)
-                            .Include(g => g.Gender)
+                            .Include(p => p.Position)  
+                            .Include(g => g.Gender)                        
                             .ToListAsync();
 
         foreach (var item in ListEmployee)
         {
             var newEmployeeDto = _mapper.Map<ResponseEmployeeRequestDTO>(item);
             employeeDTO.Add(newEmployeeDto);
-        }    
+        } 
         return employeeDTO;
     }
 
@@ -56,6 +54,26 @@ public class EmployeeRepository : IEmployeeRepository
     public Task<ResponseEmployeeRequestDTO> UpdateAsync(ResponseEmployeeRequestDTO employee)
     {
         throw new NotImplementedException();
+    }
+
+
+    private bool disposed = false;
+
+    protected virtual void Dispose(bool disposing)
+    {
+        if (!this.disposed)
+        {
+            if (disposing)
+            {
+                _dbc.Dispose();
+            }
+        }
+        this.disposed = true;
+    }
+    public void Dispose()
+    {
+        Dispose(true);
+        GC.SuppressFinalize(this);
     }
 }
 

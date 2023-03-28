@@ -3,7 +3,7 @@
 using Lubre.Repository.DataTransferObject.Outgoing;
 
 namespace Lubre.Repository.Abstractions;
-public interface IEmployeeRepository
+public interface IEmployeeRepository : IDisposable
 {
     Task<IEnumerable<ResponseEmployeeRequestDTO>> GetAllAsync();
     Task<ResponseEmployeeRequestDTO> GetByIdAsync(Guid id);

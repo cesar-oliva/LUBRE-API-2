@@ -8,4 +8,6 @@ public class Gender:Entity
 {
 [Required]
 public string Name { get; set; }
+public virtual ICollection<Person>? Peoples { get; set; }
+
 }
