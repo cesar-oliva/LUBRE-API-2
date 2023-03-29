@@ -22,6 +22,7 @@ public class EmployeeRepository : IEmployeeRepository, IDisposable
 
     public async Task<ResponseEmployeeRequestDTO> AddAsync(RegisterEmployeeRequestDTO employee)
     {
+        var newEmployee = _mapper.Map<Employee>(employee);
         await _dbc.AddAsync(employee);
         await _dbc.SaveChangesAsync();
         _dbc.Entry(employee).State = EntityState.Unchanged;

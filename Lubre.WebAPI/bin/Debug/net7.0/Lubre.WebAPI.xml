@@ -56,5 +56,57 @@
             <response code="200"> OK. returns the requested object </response>
             <response code="400"> NotFound. returns the requested object was not found </response>
         </member>
+        <member name="F:Lubre.WebAPI.Controllers.GenderController._genderRepository">
+            <summary>
+            receives by parameter the application in Employee and we inject it
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="gender"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.GenderController.GetAllAsync">
+            <summary>
+            get a list of employee objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.GenderController.GetOne(System.Guid)">
+            <summary>
+            get a employee object
+            </summary>
+            <remarks>
+            receives an id from the client and returns an object of type employee
+            </remarks>
+            <param name="id">object id</param>
+            <returns>employee object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.GenderController.Update(Lubre.Repository.DataTransferObject.Incoming.RegisterGenderRequestDTO)">
+            <summary>
+            update a employee objetc by id
+            </summary>
+            <remarks>
+            Receive the object to modify, look for the employee by id, map the entities request the update
+            </remarks>
+            <param name="dto"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.GenderController.Delete(System.Guid)">
+            <summary>
+            Delete a employe object by id
+            </summary>
+            <remarks>
+             Receive the object to deleted, look for the employee by id, request the delete
+            </remarks>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
     </members>
 </doc>

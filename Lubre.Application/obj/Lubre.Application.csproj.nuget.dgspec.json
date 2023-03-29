@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Application\\Lubre.Application.csproj": {}
+    "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Application\\Lubre.Application.csproj": {}
   },
   "projects": {
-    "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {
+    "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
+        "projectUniqueName": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
         "projectName": "Lubre.Abstractions",
-        "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\obj\\",
+        "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,46 +53,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Application\\Lubre.Application.csproj": {
+    "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Application\\Lubre.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Application\\Lubre.Application.csproj",
+        "projectUniqueName": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Application\\Lubre.Application.csproj",
         "projectName": "Lubre.Application",
-        "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Application\\Lubre.Application.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Application\\obj\\",
+        "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Application\\Lubre.Application.csproj",
+        "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {
-                "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj"
+              "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {
+                "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj"
               },
-              "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
-                "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj"
+              "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
+                "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj"
               },
-              "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj": {
-                "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj"
+              "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj": {
+                "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj"
               }
             }
           }
@@ -128,40 +116,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Proyectos Linux\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj": {
+    "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj",
+        "projectUniqueName": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj",
         "projectName": "Lubre.DataAccess",
-        "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.DataAccess\\obj\\",
+        "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
-                "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj"
+              "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
+                "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj"
               }
             }
           }
@@ -221,40 +203,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
+    "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj",
+        "projectUniqueName": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj",
         "projectName": "Lubre.Entities",
-        "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\obj\\",
+        "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj",
+        "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {
-                "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj"
+              "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj": {
+                "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Abstractions\\Lubre.Abstractions.csproj"
               }
             }
           }
@@ -284,43 +260,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj": {
+    "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj",
+        "projectUniqueName": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj",
         "projectName": "Lubre.Repository",
-        "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj",
-        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-        "outputPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Repository\\obj\\",
+        "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Repository\\Lubre.Repository.csproj",
+        "packagesPath": "C:\\Users\\Cesar\\.nuget\\packages\\",
+        "outputPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Repository\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Cesar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "G:\\Proyectos Linux\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj": {
-                "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj"
+              "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj": {
+                "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.DataAccess\\Lubre.DataAccess.csproj"
               },
-              "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
-                "projectPath": "G:\\Proyectos Linux\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj"
+              "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj": {
+                "projectPath": "D:\\Usuarios\\Cesar\\Escritorio\\Projects\\LUBRE-API\\Lubre.Entities\\Lubre.Entities.csproj"
               }
             }
           }
@@ -380,7 +350,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

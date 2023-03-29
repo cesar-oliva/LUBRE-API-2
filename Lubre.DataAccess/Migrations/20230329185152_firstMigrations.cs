@@ -67,6 +67,18 @@ namespace Lubre.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Genders",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Genders", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "Positions",
                 columns: table => new
                 {
@@ -280,32 +292,6 @@ namespace Lubre.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Document",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    Expires = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
-                    EmployeeId = table.Column<Guid>(type: "uuid", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Document", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Genders",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    Name = table.Column<string>(type: "text", nullable: false),
-                    EmployeeId = table.Column<Guid>(type: "uuid", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Genders", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Person",
                 columns: table => new
                 {
@@ -354,6 +340,24 @@ namespace Lubre.DataAccess.Migrations
                         principalTable: "Units",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Document",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Expires = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    EmployeeId = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Document", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Document_Person_EmployeeId",
+                        column: x => x.EmployeeId,
+                        principalTable: "Person",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
@@ -409,11 +413,6 @@ namespace Lubre.DataAccess.Migrations
                 column: "EmployeeId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Genders_EmployeeId",
-                table: "Genders",
-                column: "EmployeeId");
-
-            migrationBuilder.CreateIndex(
                 name: "IX_Person_AddressId",
                 table: "Person",
                 column: "AddressId");
@@ -442,33 +441,11 @@ namespace Lubre.DataAccess.Migrations
                 name: "IX_Towns_StateId",
                 table: "Towns",
                 column: "StateId");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Document_Person_EmployeeId",
-                table: "Document",
-                column: "EmployeeId",
-                principalTable: "Person",
-                principalColumn: "Id");
-
-            migrationBuilder.AddForeignKey(
-                name: "FK_Genders_Person_EmployeeId",
-                table: "Genders",
-                column: "EmployeeId",
-                principalTable: "Person",
-                principalColumn: "Id");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Addresses_Cities_CityId",
-                table: "Addresses");
-
-            migrationBuilder.DropForeignKey(
-                name: "FK_Genders_Person_EmployeeId",
-                table: "Genders");
-
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
@@ -494,18 +471,6 @@ namespace Lubre.DataAccess.Migrations
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "Cities");
-
-            migrationBuilder.DropTable(
-                name: "Towns");
-
-            migrationBuilder.DropTable(
-                name: "States");
-
-            migrationBuilder.DropTable(
-                name: "Countries");
-
-            migrationBuilder.DropTable(
                 name: "Person");
 
             migrationBuilder.DropTable(
@@ -519,6 +484,18 @@ namespace Lubre.DataAccess.Migrations
 
             migrationBuilder.DropTable(
                 name: "Units");
+
+            migrationBuilder.DropTable(
+                name: "Cities");
+
+            migrationBuilder.DropTable(
+                name: "Towns");
+
+            migrationBuilder.DropTable(
+                name: "States");
+
+            migrationBuilder.DropTable(
+                name: "Countries");
         }
     }
 }

@@ -8,7 +8,7 @@ public class EmployeeProfile : Profile
 {
     public EmployeeProfile()
     {
-        CreateMap<RegisterEmployeeRequestDTO, Employee>()
+        CreateMap<RegisterGenderRequestDTO,Employee>()
             .ForMember(
                 dest => dest.Id,
                 opt => opt.MapFrom(src => Guid.NewGuid()))
