@@ -4,6 +4,7 @@ using AutoMapper;
 using Lubre.Repository.Abstractions;
 using Microsoft.EntityFrameworkCore;
 using Lubre.Repository.DataTransferObject.Outgoing;
+using Lubre.Repository.DataTransferObject.Incoming;
 
 namespace Lubre.Repository;
 
@@ -19,14 +20,23 @@ public class EmployeeRepository : IEmployeeRepository, IDisposable
     }
 
 
-    public Task<ResponseEmployeeRequestDTO> AddAsync(ResponseEmployeeRequestDTO employee)
+    public async Task<ResponseEmployeeRequestDTO> AddAsync(RegisterEmployeeRequestDTO employee)
     {
-        throw new NotImplementedException();
+        await _dbc.AddAsync(employee);
+        await _dbc.SaveChangesAsync();
+        _dbc.Entry(employee).State = EntityState.Unchanged;
+        return _mapper.Map<ResponseEmployeeRequestDTO>(employee);
     }
 
-    public Task DeleteAsync(Guid id)
+    public void DeleteAsync(Guid id)
     {
-        throw new NotImplementedException();
+        var tmp =  _dbc.Employees.Find(id);
+        if (tmp != null)
+        {
+            _dbc.Employees.Remove(tmp);
+            _dbc.SaveChanges();
+            _dbc.Entry(tmp).State = EntityState.Unchanged;        
+        }
     }
 
     public async Task<IEnumerable<ResponseEmployeeRequestDTO>> GetAllAsync()
@@ -46,14 +56,21 @@ public class EmployeeRepository : IEmployeeRepository, IDisposable
         return employeeDTO;
     }
 
-    public Task<ResponseEmployeeRequestDTO> GetByIdAsync(Guid id)
+    public async Task<ResponseEmployeeRequestDTO> GetByIdAsync(Guid id)
     {
-        throw new NotImplementedException();
+        if(id.Equals(Guid.Empty)) return null;        
+        var tmp = await _dbc.Employees.FindAsync(id);
+        if (tmp == null) return null;
+        return _mapper.Map<ResponseEmployeeRequestDTO>(tmp);
     }
 
-    public Task<ResponseEmployeeRequestDTO> UpdateAsync(ResponseEmployeeRequestDTO employee)
+    public async Task<ResponseEmployeeRequestDTO> UpdateAsync(RegisterEmployeeRequestDTO employee)
     {
-        throw new NotImplementedException();
+        if (employee == null) return null;
+        _dbc.Employees.Update(_mapper.Map<Employee>(employee));
+        await _dbc.SaveChangesAsync();
+        _dbc.Entry(employee).State = EntityState.Unchanged;
+        return _mapper.Map<ResponseEmployeeRequestDTO>(employee);
     }
 
 

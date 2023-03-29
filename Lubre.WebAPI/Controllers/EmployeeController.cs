@@ -1,4 +1,5 @@
 using Lubre.Repository.Abstractions;
+using Lubre.Repository.DataTransferObject.Incoming;
 using Lubre.Repository.DataTransferObject.Outgoing;
 using Microsoft.AspNetCore.Mvc;
 using System.Web.Http.Description;
@@ -38,9 +39,6 @@ namespace Lubre.WebAPI.Controllers;
            return Ok(response);
             
         }
-
-            /*
-
         /// <summary>
         /// get a employee object
         /// </summary>
@@ -55,19 +53,18 @@ namespace Lubre.WebAPI.Controllers;
         [Route("{id}")]
         public async Task<IActionResult> GetOne(Guid id)
         {
-            if (id.Equals(Guid.Empty)) return NotFound();
-            var employee = await _employee.GetByIdAsync(id);
-            return Ok(_mapper.Map<RegisterEmployeeRequestDTO>(employee));
+            if (id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };;
+            var employee = await _employeeRepository.GetByIdAsync(id);
+            if (employee == null) return new JsonResult("Not Found") { StatusCode = 400 };
+            return new JsonResult("Employee Found") { StatusCode = 200 };
         }
         [HttpPost]
         public async Task<IActionResult> Save(RegisterEmployeeRequestDTO employeeDto) 
         {
             if(ModelState.IsValid){
-                Employee employee = _mapper.Map<Employee>(employeeDto);
-                await _employee.SaveAsync(employee);
-                var newEmployee = _mapper.Map<ResponseEmployeeRequestDTO>(employee);
+                var newEmployee = await _employeeRepository.AddAsync(employeeDto);
                 return CreatedAtAction("GetOne", new { id = newEmployee.Id }, newEmployee);
-                //return Ok(newEmployee);
+
             }
                 return new JsonResult("Something went wrong") { StatusCode = 500 };
         }
@@ -86,9 +83,8 @@ namespace Lubre.WebAPI.Controllers;
         [Route("{id}")]
         public async Task<IActionResult> Update(RegisterEmployeeRequestDTO dto)
         {
-            //if (dto.Id.Equals(Guid.Empty)|| dto == null) return NotFound();
-            var employee = _mapper.Map<Employee>(dto);
-            await _employee.UpdateAsync(employee);
+            if (dto == null) return NotFound();
+            var employee = await _employeeRepository.UpdateAsync(dto);
             return Ok(employee);
         }
 
@@ -107,8 +103,7 @@ namespace Lubre.WebAPI.Controllers;
         public IActionResult Delete(Guid id)
         {
             if (id.Equals(Guid.Empty)) return NotFound();
-            _employee.DeleteAsync(id);
+            _employeeRepository.DeleteAsync(id);
             return Ok();
         }
-        */
     }

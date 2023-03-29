@@ -6,10 +6,26 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Lubre.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class _2Migrations : Migration
+    public partial class _1firstMigrations : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.DropForeignKey(
+                name: "FK_Genders_Person_EmployeeId",
+                table: "Genders");
+
+            migrationBuilder.DropIndex(
+                name: "IX_Genders_EmployeeId",
+                table: "Genders");
+
+            migrationBuilder.DropColumn(
+                name: "EmployeeId",
+                table: "Genders");
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<Guid>(
                 name: "EmployeeId",
@@ -23,27 +39,11 @@ namespace Lubre.DataAccess.Migrations
                 column: "EmployeeId");
 
             migrationBuilder.AddForeignKey(
-                name: "FK_Genders_Employees_EmployeeId",
+                name: "FK_Genders_Person_EmployeeId",
                 table: "Genders",
                 column: "EmployeeId",
-                principalTable: "Employees",
+                principalTable: "Person",
                 principalColumn: "Id");
-        }
-
-        /// <inheritdoc />
-        protected override void Down(MigrationBuilder migrationBuilder)
-        {
-            migrationBuilder.DropForeignKey(
-                name: "FK_Genders_Employees_EmployeeId",
-                table: "Genders");
-
-            migrationBuilder.DropIndex(
-                name: "IX_Genders_EmployeeId",
-                table: "Genders");
-
-            migrationBuilder.DropColumn(
-                name: "EmployeeId",
-                table: "Genders");
         }
     }
 }

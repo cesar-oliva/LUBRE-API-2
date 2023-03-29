@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Lubre.DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class secondMigrations : Migration
+    public partial class firstMigrations : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -52,15 +52,18 @@ namespace Lubre.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Genders",
+                name: "Countries",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    Name = table.Column<string>(type: "text", nullable: false)
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    Iso2Code = table.Column<string>(type: "text", nullable: true),
+                    Iso3Code = table.Column<string>(type: "text", nullable: true),
+                    PhoneCode = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Genders", x => x.Id);
+                    table.PrimaryKey("PK_Countries", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -194,45 +197,84 @@ namespace Lubre.DataAccess.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Employees",
+                name: "States",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
-                    FileNumber = table.Column<int>(type: "integer", nullable: false),
-                    CuilNumber = table.Column<string>(type: "character varying(11)", maxLength: 11, nullable: false),
-                    StartDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
-                    UnitId = table.Column<Guid>(type: "uuid", nullable: false),
-                    PositionId = table.Column<Guid>(type: "uuid", nullable: false),
-                    Status = table.Column<bool>(type: "boolean", nullable: false),
-                    DniNumber = table.Column<string>(type: "character varying(8)", maxLength: 8, nullable: false),
-                    Name = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
-                    LastName = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
-                    DateOfBirth = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
-                    Address = table.Column<string>(type: "character varying(150)", maxLength: 150, nullable: false),
-                    PhotoUrl = table.Column<string>(type: "text", nullable: false),
-                    EmailAddress = table.Column<string>(type: "text", nullable: false),
-                    PhoneNumber = table.Column<string>(type: "text", nullable: false),
-                    GenderId = table.Column<Guid>(type: "uuid", nullable: false)
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    CountryId = table.Column<Guid>(type: "uuid", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Employees", x => x.Id);
+                    table.PrimaryKey("PK_States", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Employees_Genders_GenderId",
-                        column: x => x.GenderId,
-                        principalTable: "Genders",
+                        name: "FK_States_Countries_CountryId",
+                        column: x => x.CountryId,
+                        principalTable: "Countries",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Towns",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    StateId = table.Column<Guid>(type: "uuid", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Towns", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Towns_States_StateId",
+                        column: x => x.StateId,
+                        principalTable: "States",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Cities",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    ZipCode = table.Column<string>(type: "text", nullable: false),
+                    TownId = table.Column<Guid>(type: "uuid", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Cities", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Employees_Positions_PositionId",
-                        column: x => x.PositionId,
-                        principalTable: "Positions",
+                        name: "FK_Cities_Towns_TownId",
+                        column: x => x.TownId,
+                        principalTable: "Towns",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Addresses",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Street = table.Column<string>(type: "text", nullable: false),
+                    Number = table.Column<string>(type: "text", nullable: false),
+                    Floor = table.Column<string>(type: "text", nullable: false),
+                    Flat = table.Column<string>(type: "text", nullable: false),
+                    Neighborhood = table.Column<string>(type: "text", nullable: false),
+                    Lot = table.Column<string>(type: "text", nullable: false),
+                    House = table.Column<string>(type: "text", nullable: false),
+                    Block = table.Column<string>(type: "text", nullable: false),
+                    CityId = table.Column<Guid>(type: "uuid", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Addresses", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Employees_Units_UnitId",
-                        column: x => x.UnitId,
-                        principalTable: "Units",
+                        name: "FK_Addresses_Cities_CityId",
+                        column: x => x.CityId,
+                        principalTable: "Cities",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -248,12 +290,76 @@ namespace Lubre.DataAccess.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Document", x => x.Id);
-                    table.ForeignKey(
-                        name: "FK_Document_Employees_EmployeeId",
-                        column: x => x.EmployeeId,
-                        principalTable: "Employees",
-                        principalColumn: "Id");
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Genders",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    Name = table.Column<string>(type: "text", nullable: false),
+                    EmployeeId = table.Column<Guid>(type: "uuid", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Genders", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Person",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uuid", nullable: false),
+                    DniNumber = table.Column<string>(type: "character varying(8)", maxLength: 8, nullable: false),
+                    Name = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    LastName = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    DateOfBirth = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
+                    AddressId = table.Column<Guid>(type: "uuid", maxLength: 150, nullable: false),
+                    PhotoUrl = table.Column<string>(type: "text", nullable: false),
+                    EmailAddress = table.Column<string>(type: "text", nullable: false),
+                    PhoneNumber = table.Column<string>(type: "text", nullable: false),
+                    GenderId = table.Column<Guid>(type: "uuid", nullable: false),
+                    Discriminator = table.Column<string>(type: "text", nullable: false),
+                    FileNumber = table.Column<int>(type: "integer", nullable: true),
+                    CuilNumber = table.Column<string>(type: "character varying(11)", maxLength: 11, nullable: true),
+                    StartDate = table.Column<DateTime>(type: "timestamp without time zone", nullable: true),
+                    UnitId = table.Column<Guid>(type: "uuid", nullable: true),
+                    PositionId = table.Column<Guid>(type: "uuid", nullable: true),
+                    Status = table.Column<bool>(type: "boolean", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Person", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Person_Addresses_AddressId",
+                        column: x => x.AddressId,
+                        principalTable: "Addresses",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Person_Genders_GenderId",
+                        column: x => x.GenderId,
+                        principalTable: "Genders",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Person_Positions_PositionId",
+                        column: x => x.PositionId,
+                        principalTable: "Positions",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Person_Units_UnitId",
+                        column: x => x.UnitId,
+                        principalTable: "Units",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Addresses_CityId",
+                table: "Addresses",
+                column: "CityId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -293,29 +399,76 @@ namespace Lubre.DataAccess.Migrations
                 unique: true);
 
             migrationBuilder.CreateIndex(
+                name: "IX_Cities_TownId",
+                table: "Cities",
+                column: "TownId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Document_EmployeeId",
                 table: "Document",
                 column: "EmployeeId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Employees_GenderId",
-                table: "Employees",
+                name: "IX_Genders_EmployeeId",
+                table: "Genders",
+                column: "EmployeeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Person_AddressId",
+                table: "Person",
+                column: "AddressId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Person_GenderId",
+                table: "Person",
                 column: "GenderId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Employees_PositionId",
-                table: "Employees",
+                name: "IX_Person_PositionId",
+                table: "Person",
                 column: "PositionId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Employees_UnitId",
-                table: "Employees",
+                name: "IX_Person_UnitId",
+                table: "Person",
                 column: "UnitId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_States_CountryId",
+                table: "States",
+                column: "CountryId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Towns_StateId",
+                table: "Towns",
+                column: "StateId");
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_Document_Person_EmployeeId",
+                table: "Document",
+                column: "EmployeeId",
+                principalTable: "Person",
+                principalColumn: "Id");
+
+            migrationBuilder.AddForeignKey(
+                name: "FK_Genders_Person_EmployeeId",
+                table: "Genders",
+                column: "EmployeeId",
+                principalTable: "Person",
+                principalColumn: "Id");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropForeignKey(
+                name: "FK_Addresses_Cities_CityId",
+                table: "Addresses");
+
+            migrationBuilder.DropForeignKey(
+                name: "FK_Genders_Person_EmployeeId",
+                table: "Genders");
+
             migrationBuilder.DropTable(
                 name: "AspNetRoleClaims");
 
@@ -341,7 +494,22 @@ namespace Lubre.DataAccess.Migrations
                 name: "AspNetUsers");
 
             migrationBuilder.DropTable(
-                name: "Employees");
+                name: "Cities");
+
+            migrationBuilder.DropTable(
+                name: "Towns");
+
+            migrationBuilder.DropTable(
+                name: "States");
+
+            migrationBuilder.DropTable(
+                name: "Countries");
+
+            migrationBuilder.DropTable(
+                name: "Person");
+
+            migrationBuilder.DropTable(
+                name: "Addresses");
 
             migrationBuilder.DropTable(
                 name: "Genders");

@@ -38,7 +38,6 @@ builder.Services.AddEndpointsApiExplorer();
 //builder.Services.AddSwaggerGen();
 
 /*When an application type object is requested, it creates the instance (dependency injection).*/
-builder.Services.AddScoped(typeof(IDbContext<>), typeof(DbContext<>));
 builder.Services.AddScoped(typeof(IEmployeeRepository), typeof(EmployeeRepository));
 //mapper
 var mapperConfig = new MapperConfiguration(mapperConfig =>

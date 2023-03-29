@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Lubre.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230324224829_2AddressMigrations")]
-    partial class _2AddressMigrations
+    [Migration("20230329015757_1firstMigrations")]
+    partial class _1firstMigrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -83,7 +83,7 @@ namespace Lubre.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid>("StateId")
+                    b.Property<Guid>("TownId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("ZipCode")
@@ -92,7 +92,7 @@ namespace Lubre.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("StateId");
+                    b.HasIndex("TownId");
 
                     b.ToTable("Cities");
                 });
@@ -140,24 +140,37 @@ namespace Lubre.DataAccess.Migrations
                     b.ToTable("Document");
                 });
 
-            modelBuilder.Entity("Lubre.Entities.Employee", b =>
+            modelBuilder.Entity("Lubre.Entities.Gender", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Address")
+                    b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("character varying(150)");
+                        .HasColumnType("text");
 
-                    b.Property<string>("CuilNumber")
-                        .IsRequired()
-                        .HasMaxLength(11)
-                        .HasColumnType("character varying(11)");
+                    b.HasKey("Id");
+
+                    b.ToTable("Genders");
+                });
+
+            modelBuilder.Entity("Lubre.Entities.Person", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("AddressId")
+                        .HasMaxLength(150)
+                        .HasColumnType("uuid");
 
                     b.Property<DateTime>("DateOfBirth")
                         .HasColumnType("timestamp without time zone");
+
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("DniNumber")
                         .IsRequired()
@@ -167,9 +180,6 @@ namespace Lubre.DataAccess.Migrations
                     b.Property<string>("EmailAddress")
                         .IsRequired()
                         .HasColumnType("text");
-
-                    b.Property<int>("FileNumber")
-                        .HasColumnType("integer");
 
                     b.Property<Guid>("GenderId")
                         .HasColumnType("uuid");
@@ -192,42 +202,17 @@ namespace Lubre.DataAccess.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<Guid>("PositionId")
-                        .HasColumnType("uuid");
-
-                    b.Property<DateTime>("StartDate")
-                        .HasColumnType("timestamp without time zone");
-
-                    b.Property<bool>("Status")
-                        .HasColumnType("boolean");
-
-                    b.Property<Guid>("UnitId")
-                        .HasColumnType("uuid");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("AddressId");
 
                     b.HasIndex("GenderId");
 
-                    b.HasIndex("PositionId");
+                    b.ToTable("Person");
 
-                    b.HasIndex("UnitId");
+                    b.HasDiscriminator<string>("Discriminator").HasValue("Person");
 
-                    b.ToTable("Employees");
-                });
-
-            modelBuilder.Entity("Lubre.Entities.Gender", b =>
-                {
-                    b.Property<Guid>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("uuid");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Genders");
+                    b.UseTphMappingStrategy();
                 });
 
             modelBuilder.Entity("Lubre.Entities.Position", b =>
@@ -496,6 +481,37 @@ namespace Lubre.DataAccess.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("Lubre.Entities.Employee", b =>
+                {
+                    b.HasBaseType("Lubre.Entities.Person");
+
+                    b.Property<string>("CuilNumber")
+                        .IsRequired()
+                        .HasMaxLength(11)
+                        .HasColumnType("character varying(11)");
+
+                    b.Property<int>("FileNumber")
+                        .HasColumnType("integer");
+
+                    b.Property<Guid>("PositionId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("timestamp without time zone");
+
+                    b.Property<bool>("Status")
+                        .HasColumnType("boolean");
+
+                    b.Property<Guid>("UnitId")
+                        .HasColumnType("uuid");
+
+                    b.HasIndex("PositionId");
+
+                    b.HasIndex("UnitId");
+
+                    b.HasDiscriminator().HasValue("Employee");
+                });
+
             modelBuilder.Entity("Lubre.Entities.Address", b =>
                 {
                     b.HasOne("Lubre.Entities.City", "City")
@@ -509,13 +525,13 @@ namespace Lubre.DataAccess.Migrations
 
             modelBuilder.Entity("Lubre.Entities.City", b =>
                 {
-                    b.HasOne("Lubre.Entities.Town", "State")
+                    b.HasOne("Lubre.Entities.Town", "Town")
                         .WithMany("Cities")
-                        .HasForeignKey("StateId")
+                        .HasForeignKey("TownId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("State");
+                    b.Navigation("Town");
                 });
 
             modelBuilder.Entity("Lubre.Entities.Document", b =>
@@ -525,31 +541,23 @@ namespace Lubre.DataAccess.Migrations
                         .HasForeignKey("EmployeeId");
                 });
 
-            modelBuilder.Entity("Lubre.Entities.Employee", b =>
+            modelBuilder.Entity("Lubre.Entities.Person", b =>
                 {
-                    b.HasOne("Lubre.Entities.Gender", "Gender")
+                    b.HasOne("Lubre.Entities.Address", "Address")
                         .WithMany()
+                        .HasForeignKey("AddressId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lubre.Entities.Gender", "Gender")
+                        .WithMany("Peoples")
                         .HasForeignKey("GenderId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Lubre.Entities.Position", "Position")
-                        .WithMany("Employees")
-                        .HasForeignKey("PositionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Lubre.Entities.Unit", "Unit")
-                        .WithMany("Employees")
-                        .HasForeignKey("UnitId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Navigation("Address");
 
                     b.Navigation("Gender");
-
-                    b.Navigation("Position");
-
-                    b.Navigation("Unit");
                 });
 
             modelBuilder.Entity("Lubre.Entities.State", b =>
@@ -623,14 +631,33 @@ namespace Lubre.DataAccess.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Lubre.Entities.Employee", b =>
+                {
+                    b.HasOne("Lubre.Entities.Position", "Position")
+                        .WithMany("Employees")
+                        .HasForeignKey("PositionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Lubre.Entities.Unit", "Unit")
+                        .WithMany("Employees")
+                        .HasForeignKey("UnitId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Position");
+
+                    b.Navigation("Unit");
+                });
+
             modelBuilder.Entity("Lubre.Entities.Country", b =>
                 {
                     b.Navigation("States");
                 });
 
-            modelBuilder.Entity("Lubre.Entities.Employee", b =>
+            modelBuilder.Entity("Lubre.Entities.Gender", b =>
                 {
-                    b.Navigation("Documents");
+                    b.Navigation("Peoples");
                 });
 
             modelBuilder.Entity("Lubre.Entities.Position", b =>
@@ -651,6 +678,11 @@ namespace Lubre.DataAccess.Migrations
             modelBuilder.Entity("Lubre.Entities.Unit", b =>
                 {
                     b.Navigation("Employees");
+                });
+
+            modelBuilder.Entity("Lubre.Entities.Employee", b =>
+                {
+                    b.Navigation("Documents");
                 });
 #pragma warning restore 612, 618
         }

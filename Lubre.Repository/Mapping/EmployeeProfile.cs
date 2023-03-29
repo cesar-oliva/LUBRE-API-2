@@ -31,7 +31,7 @@ public class EmployeeProfile : Profile
                 opt => opt.MapFrom(src => src.Unit.Name))
             .ForMember(
                 dest => dest.GenderName,
-                opt => opt.MapFrom(src => src.Genders.Where(g => g.Id == src.GenderId).FirstOrDefault().Name))
+                opt => opt.MapFrom(src => src.Gender.Name))
             .ForMember(
                 dest => dest.PositionName,
                 opt => opt.MapFrom(src => src.Position.Name));                     

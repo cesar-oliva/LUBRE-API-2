@@ -19,5 +19,4 @@ public class Employee : Person, IEntity
     public Position Position { get; set; }
     public bool Status { get; set; }
     public virtual ICollection<Document> Documents { get; set; }
-    public virtual ICollection<Gender> Genders { get; set; }
 }

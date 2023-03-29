@@ -143,16 +143,11 @@ namespace Lubre.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<Guid?>("EmployeeId")
-                        .HasColumnType("uuid");
-
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("EmployeeId");
 
                     b.ToTable("Genders");
                 });
@@ -543,13 +538,6 @@ namespace Lubre.DataAccess.Migrations
                         .HasForeignKey("EmployeeId");
                 });
 
-            modelBuilder.Entity("Lubre.Entities.Gender", b =>
-                {
-                    b.HasOne("Lubre.Entities.Employee", null)
-                        .WithMany("Genders")
-                        .HasForeignKey("EmployeeId");
-                });
-
             modelBuilder.Entity("Lubre.Entities.Person", b =>
                 {
                     b.HasOne("Lubre.Entities.Address", "Address")
@@ -692,8 +680,6 @@ namespace Lubre.DataAccess.Migrations
             modelBuilder.Entity("Lubre.Entities.Employee", b =>
                 {
                     b.Navigation("Documents");
-
-                    b.Navigation("Genders");
                 });
 #pragma warning restore 612, 618
         }
