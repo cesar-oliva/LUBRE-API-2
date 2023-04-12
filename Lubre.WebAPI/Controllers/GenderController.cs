@@ -32,13 +32,18 @@ namespace Lubre.WebAPI.Controllers;
         [HttpGet]
         public async Task<IActionResult> GetAllAsync()
         {
-           var response =  await _genderRepository.GetAllAsync();
-           if(response == null){
-                return NotFound();
-           }
-           return Ok(response);
-            
+            try
+            {
+                var response =  await _genderRepository.GetAllAsync();
+                if (response == null) return new JsonResult("Not Found") { StatusCode = 400 };
+                return new JsonResult(response) { StatusCode = 200 };
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }  
         }
+
         /// <summary>
         /// get a employee object
         /// </summary>
@@ -53,22 +58,35 @@ namespace Lubre.WebAPI.Controllers;
         [Route("{id}")]
         public async Task<IActionResult> GetOne(Guid id)
         {
-            if (id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };;
-            var gender = await _genderRepository.GetByIdAsync(id);
-            if (gender == null) return new JsonResult("Not Found") { StatusCode = 400 };
-            return new JsonResult("Employee Found") { StatusCode = 200 };
+            if (id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };
+            try
+            {
+                var gender = await _genderRepository.GetByIdAsync(id);
+                if (gender == null) return new JsonResult("Not Found") { StatusCode = 400 };
+                return new JsonResult(gender) { StatusCode = 200 };
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }  
         }
+
         [HttpPost]
         public async Task<IActionResult> Save(RegisterGenderRequestDTO genderDto) 
         {
-            if(ModelState.IsValid){
+            try
+            {
+                if(ModelState.IsValid){
                 var newGender = await _genderRepository.AddAsync(genderDto);
                 return CreatedAtAction("GetOne", new { id = newGender.Id }, newGender);
-
-            }
+                }
                 return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }  
         }
-
         /// <summary>
         /// update a employee objetc by id
         /// </summary>
@@ -76,16 +94,29 @@ namespace Lubre.WebAPI.Controllers;
         /// Receive the object to modify, look for the employee by id, map the entities request the update
         /// </remarks>
         /// <param name="dto"></param>
+        /// <param name="id"></param>
         /// <returns>response object</returns>
         /// <response code="200"> OK. returns the requested object </response>
         /// <response code="400"> NotFound. returns the requested object was not found </response>
         [HttpPut]
         [Route("{id}")]
-        public async Task<IActionResult> Update(RegisterGenderRequestDTO dto)
+        public async Task<IActionResult> Update(Guid id, RegisterGenderRequestDTO dto)
         {
-            if (dto == null) return NotFound();
-            var gender = await _genderRepository.UpdateAsync(dto);
-            return Ok(gender);
+            if(id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };
+            if (dto == null) return new JsonResult("Not Found") { StatusCode = 400 };
+            try
+            {
+                var updateToGender = new ResponseGenderRequestDTO(){
+                    Id = id,
+                    GenderName = dto.GenderName
+                };              
+                var gender = await _genderRepository.UpdateAsync(updateToGender);
+                return new JsonResult(gender) { StatusCode = 200 };      
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            } 
         }
 
         /// <summary>
@@ -102,8 +133,15 @@ namespace Lubre.WebAPI.Controllers;
         [Route("{id}")]
         public IActionResult Delete(Guid id)
         {
-            if (id.Equals(Guid.Empty)) return NotFound();
-            _genderRepository.DeleteAsync(id);
-            return Ok();
+            if (id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };
+            try
+            {
+                _genderRepository.DeleteAsync(id);
+                return new JsonResult("the gender has been removed") { StatusCode = 200 };
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }
         }
     }

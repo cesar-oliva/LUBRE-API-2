@@ -84,7 +84,7 @@
             <response code="200"> OK. returns the requested object </response>
             <response code="400"> NotFound. returns the requested object was not found </response>
         </member>
-        <member name="M:Lubre.WebAPI.Controllers.GenderController.Update(Lubre.Repository.DataTransferObject.Incoming.RegisterGenderRequestDTO)">
+        <member name="M:Lubre.WebAPI.Controllers.GenderController.Update(System.Guid,Lubre.Repository.DataTransferObject.Incoming.RegisterGenderRequestDTO)">
             <summary>
             update a employee objetc by id
             </summary>
@@ -92,6 +92,7 @@
             Receive the object to modify, look for the employee by id, map the entities request the update
             </remarks>
             <param name="dto"></param>
+            <param name="id"></param>
             <returns>response object</returns>
             <response code="200"> OK. returns the requested object </response>
             <response code="400"> NotFound. returns the requested object was not found </response>

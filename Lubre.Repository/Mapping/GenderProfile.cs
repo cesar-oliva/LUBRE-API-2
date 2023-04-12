@@ -20,6 +20,10 @@ public class GenderProfile : Profile
             .ForMember(
                 dest => dest.GenderName,
                 opt => opt.MapFrom(src => src.Name)
-            );                     
+            );     
+        CreateMap<ResponseGenderRequestDTO,Gender>()
+        .ForMember(
+            dest => dest.Name,
+            opt => opt.MapFrom(src => src.GenderName));                 
     }
 }
