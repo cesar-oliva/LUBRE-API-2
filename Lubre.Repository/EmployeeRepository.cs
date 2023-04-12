@@ -65,7 +65,7 @@ public class EmployeeRepository : IEmployeeRepository, IDisposable
         return _mapper.Map<ResponseEmployeeRequestDTO>(tmp);
     }
 
-    public async Task<ResponseEmployeeRequestDTO> UpdateAsync(RegisterEmployeeRequestDTO employee)
+    public async Task<ResponseEmployeeRequestDTO> UpdateAsync(Guid id,RegisterEmployeeRequestDTO employee)
     {
         if (employee == null) return null;
         _dbc.Employees.Update(_mapper.Map<Employee>(employee));

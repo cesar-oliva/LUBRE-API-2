@@ -106,11 +106,8 @@ namespace Lubre.WebAPI.Controllers;
             if (dto == null) return new JsonResult("Not Found") { StatusCode = 400 };
             try
             {
-                var updateToGender = new ResponseGenderRequestDTO(){
-                    Id = id,
-                    GenderName = dto.GenderName
-                };              
-                var gender = await _genderRepository.UpdateAsync(updateToGender);
+                           
+                var gender = await _genderRepository.UpdateAsync(id,dto);
                 return new JsonResult(gender) { StatusCode = 200 };      
             }
             catch (System.Exception)

@@ -32,12 +32,16 @@ namespace Lubre.WebAPI.Controllers;
         [HttpGet]
         public async Task<IActionResult> GetAllAsync()
         {
-           var response =  await _employeeRepository.GetAllAsync();
-           if(response == null){
-                return NotFound();
-           }
-           return Ok(response);
-            
+            try
+            {
+                var response =  await _employeeRepository.GetAllAsync();
+                if (response == null) return new JsonResult("Not Found") { StatusCode = 400 };
+                return new JsonResult(response) { StatusCode = 200 };
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }         
         }
         /// <summary>
         /// get a employee object
@@ -53,20 +57,34 @@ namespace Lubre.WebAPI.Controllers;
         [Route("{id}")]
         public async Task<IActionResult> GetOne(Guid id)
         {
-            if (id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };;
-            var employee = await _employeeRepository.GetByIdAsync(id);
-            if (employee == null) return new JsonResult("Not Found") { StatusCode = 400 };
-            return new JsonResult("Employee Found") { StatusCode = 200 };
+            if (id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };
+            try
+            {
+                var employee = await _employeeRepository.GetByIdAsync(id);
+                if (employee == null) return new JsonResult("Not Found") { StatusCode = 400 };
+                return new JsonResult("Employee Found") { StatusCode = 200 };   
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }
         }
+
         [HttpPost]
         public async Task<IActionResult> Save(RegisterEmployeeRequestDTO employeeDto) 
         {
-            if(ModelState.IsValid){
+            try
+            {
+                if(ModelState.IsValid){
                 var newEmployee = await _employeeRepository.AddAsync(employeeDto);
                 return CreatedAtAction("GetOne", new { id = newEmployee.Id }, newEmployee);
-
-            }
+                }
                 return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            }      
         }
 
         /// <summary>
@@ -81,11 +99,19 @@ namespace Lubre.WebAPI.Controllers;
         /// <response code="400"> NotFound. returns the requested object was not found </response>
         [HttpPut]
         [Route("{id}")]
-        public async Task<IActionResult> Update(RegisterEmployeeRequestDTO dto)
+        public async Task<IActionResult> Update(Guid id, RegisterEmployeeRequestDTO dto)
         {
-            if (dto == null) return NotFound();
-            var employee = await _employeeRepository.UpdateAsync(dto);
-            return Ok(employee);
+            if(id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };
+            if (dto == null) return new JsonResult("Not Found") { StatusCode = 400 };
+            try
+            {            
+                var employee = await _employeeRepository.UpdateAsync(id, dto);
+                return new JsonResult(employee) { StatusCode = 200 };      
+            }
+            catch (System.Exception)
+            {
+                return new JsonResult("Something went wrong") { StatusCode = 500 };
+            } 
         }
 
         /// <summary>

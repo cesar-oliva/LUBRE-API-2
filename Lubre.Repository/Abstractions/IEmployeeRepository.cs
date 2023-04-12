@@ -10,7 +10,7 @@ public interface IEmployeeRepository: IDisposable
     Task<IEnumerable<ResponseEmployeeRequestDTO>> GetAllAsync();
     Task<ResponseEmployeeRequestDTO> GetByIdAsync(Guid id);
     Task<ResponseEmployeeRequestDTO> AddAsync(RegisterEmployeeRequestDTO employeeDTO);
-    Task<ResponseEmployeeRequestDTO> UpdateAsync(RegisterEmployeeRequestDTO employeeDTO);
+    Task<ResponseEmployeeRequestDTO> UpdateAsync(Guid id,RegisterEmployeeRequestDTO employeeDTO);
     void DeleteAsync(Guid id);
 }
 

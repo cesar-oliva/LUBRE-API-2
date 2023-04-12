@@ -61,12 +61,14 @@ public class GenderRepository : IGenderRepository, IDisposable
         return _mapper.Map<ResponseGenderRequestDTO>(tmp);
     }
 
-    public async Task<ResponseGenderRequestDTO> UpdateAsync(ResponseGenderRequestDTO gender)
+    public async Task<ResponseGenderRequestDTO> UpdateAsync(Guid id,RegisterGenderRequestDTO gender)
     {
         if (gender == null) return null;
-        _dbc.Genders.Update(_mapper.Map<Gender>(gender));
+        var newGender = _mapper.Map<Gender>(gender);
+        newGender.Id = id;
+        _dbc.Genders.Update(newGender);
         await _dbc.SaveChangesAsync();
-        return gender;
+        return _mapper.Map<ResponseGenderRequestDTO>(newGender);
     }
 
 

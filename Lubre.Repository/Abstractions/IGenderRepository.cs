@@ -10,7 +10,7 @@ public interface IGenderRepository: IDisposable
     Task<IEnumerable<ResponseGenderRequestDTO>> GetAllAsync();
     Task<ResponseGenderRequestDTO> GetByIdAsync(Guid id);
     Task<ResponseGenderRequestDTO> AddAsync(RegisterGenderRequestDTO genderDTO);
-    Task<ResponseGenderRequestDTO> UpdateAsync(ResponseGenderRequestDTO genderDTO);
+    Task<ResponseGenderRequestDTO> UpdateAsync(Guid id,RegisterGenderRequestDTO genderDTO);
     void DeleteAsync(Guid id);
 }
 
