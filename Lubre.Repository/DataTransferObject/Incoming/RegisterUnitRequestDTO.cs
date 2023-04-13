@@ -2,5 +2,5 @@ namespace Lubre.Repository.DataTransferObject.Incoming;
 
 public class RegisterUnitRequestDTO
 {
-    public string Name { get; set; }
+    public string UnitName { get; set; }
 }

@@ -58,7 +58,7 @@
         </member>
         <member name="F:Lubre.WebAPI.Controllers.GenderController._genderRepository">
             <summary>
-            receives by parameter the application in Employee and we inject it
+            receives by parameter the application in Gender and we inject it
             </summary>
             <remarks>
             
@@ -68,28 +68,28 @@
         </member>
         <member name="M:Lubre.WebAPI.Controllers.GenderController.GetAllAsync">
             <summary>
-            get a list of employee objects
+            get a list of gender objects
             </summary>
             <returns></returns>
         </member>
         <member name="M:Lubre.WebAPI.Controllers.GenderController.GetOne(System.Guid)">
             <summary>
-            get a employee object
+            get a gender object
             </summary>
             <remarks>
-            receives an id from the client and returns an object of type employee
+            receives an id from the client and returns an object of type gender
             </remarks>
             <param name="id">object id</param>
-            <returns>employee object</returns>
+            <returns>gender object</returns>
             <response code="200"> OK. returns the requested object </response>
             <response code="400"> NotFound. returns the requested object was not found </response>
         </member>
         <member name="M:Lubre.WebAPI.Controllers.GenderController.Update(System.Guid,Lubre.Repository.DataTransferObject.Incoming.RegisterGenderRequestDTO)">
             <summary>
-            update a employee objetc by id
+            update a gender objetc by id
             </summary>
             <remarks>
-            Receive the object to modify, look for the employee by id, map the entities request the update
+            Receive the object to modify, look for the gender by id, map the entities request the update
             </remarks>
             <param name="dto"></param>
             <param name="id"></param>
@@ -99,10 +99,116 @@
         </member>
         <member name="M:Lubre.WebAPI.Controllers.GenderController.Delete(System.Guid)">
             <summary>
-            Delete a employe object by id
+            Delete a gender object by id
             </summary>
             <remarks>
-             Receive the object to deleted, look for the employee by id, request the delete
+             Receive the object to deleted, look for the gender by id, request the delete
+            </remarks>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="F:Lubre.WebAPI.Controllers.PositionController._positionRepository">
+            <summary>
+            receives by parameter the application in Position and we inject it
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="position"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.PositionController.GetAllAsync">
+            <summary>
+            get a list of position objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.PositionController.GetOne(System.Guid)">
+            <summary>
+            get a position object
+            </summary>
+            <remarks>
+            receives an id from the client and returns an object of type position 
+            </remarks>
+            <param name="id">object id</param>
+            <returns>position  object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.PositionController.Update(System.Guid,Lubre.Repository.DataTransferObject.Incoming.RegisterPositionRequestDTO)">
+            <summary>
+            update a position objetc by id
+            </summary>
+            <remarks>
+            Receive the object to modify, look for the position by id, map the entities request the update
+            </remarks>
+            <param name="dto"></param>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.PositionController.Delete(System.Guid)">
+            <summary>
+            Delete a position object by id
+            </summary>
+            <remarks>
+             Receive the object to deleted, look for the position by id, request the delete
+            </remarks>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="F:Lubre.WebAPI.Controllers.UnitController._unitRepository">
+            <summary>
+            receives by parameter the application in Unit and we inject it
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="unit"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.UnitController.GetAllAsync">
+            <summary>
+            get a list of unit objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.UnitController.GetOne(System.Guid)">
+            <summary>
+            get a unit object
+            </summary>
+            <remarks>
+            receives an id from the client and returns an object of type unit
+            </remarks>
+            <param name="id">object id</param>
+            <returns>unit object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.UnitController.Update(System.Guid,Lubre.Repository.DataTransferObject.Incoming.RegisterUnitRequestDTO)">
+            <summary>
+            update a unit objetc by id
+            </summary>
+            <remarks>
+            Receive the object to modify, look for the unit by id, map the entities request the update
+            </remarks>
+            <param name="dto"></param>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.UnitController.Delete(System.Guid)">
+            <summary>
+            Delete a unit object by id
+            </summary>
+            <remarks>
+             Receive the object to deleted, look for the unit by id, request the delete
             </remarks>
             <param name="id"></param>
             <returns>response object</returns>

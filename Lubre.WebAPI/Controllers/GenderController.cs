@@ -13,7 +13,7 @@ namespace Lubre.WebAPI.Controllers;
     {
         
         /// <summary>
-        /// receives by parameter the application in Employee and we inject it
+        /// receives by parameter the application in Gender and we inject it
         /// </summary>
         /// <remarks>
         /// 
@@ -26,7 +26,7 @@ namespace Lubre.WebAPI.Controllers;
             _genderRepository = genderRepository;
         }
         /// <summary>
-        /// get a list of employee objects
+        /// get a list of gender objects
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -45,13 +45,13 @@ namespace Lubre.WebAPI.Controllers;
         }
 
         /// <summary>
-        /// get a employee object
+        /// get a gender object
         /// </summary>
         /// <remarks>
-        /// receives an id from the client and returns an object of type employee
+        /// receives an id from the client and returns an object of type gender
         /// </remarks>
         /// <param name="id">object id</param>
-        /// <returns>employee object</returns>
+        /// <returns>gender object</returns>
         /// <response code="200"> OK. returns the requested object </response>
         /// <response code="400"> NotFound. returns the requested object was not found </response>
         [HttpGet]
@@ -88,10 +88,10 @@ namespace Lubre.WebAPI.Controllers;
             }  
         }
         /// <summary>
-        /// update a employee objetc by id
+        /// update a gender objetc by id
         /// </summary>
         /// <remarks>
-        /// Receive the object to modify, look for the employee by id, map the entities request the update
+        /// Receive the object to modify, look for the gender by id, map the entities request the update
         /// </remarks>
         /// <param name="dto"></param>
         /// <param name="id"></param>
@@ -105,8 +105,7 @@ namespace Lubre.WebAPI.Controllers;
             if(id.Equals(Guid.Empty)) return new JsonResult("Not Found") { StatusCode = 400 };
             if (dto == null) return new JsonResult("Not Found") { StatusCode = 400 };
             try
-            {
-                           
+            {    
                 var gender = await _genderRepository.UpdateAsync(id,dto);
                 return new JsonResult(gender) { StatusCode = 200 };      
             }
@@ -117,10 +116,10 @@ namespace Lubre.WebAPI.Controllers;
         }
 
         /// <summary>
-        /// Delete a employe object by id
+        /// Delete a gender object by id
         /// </summary>
         /// <remarks>
-        ///  Receive the object to deleted, look for the employee by id, request the delete
+        ///  Receive the object to deleted, look for the gender by id, request the delete
         /// </remarks>
         /// <param name="id"></param>
         /// <returns>response object</returns>

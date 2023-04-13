@@ -40,11 +40,15 @@ builder.Services.AddEndpointsApiExplorer();
 /*When an application type object is requested, it creates the instance (dependency injection).*/
 builder.Services.AddScoped(typeof(IEmployeeRepository), typeof(EmployeeRepository));
 builder.Services.AddScoped(typeof(IGenderRepository), typeof(GenderRepository));
+builder.Services.AddScoped(typeof(IUnitRepository), typeof(UnitRepository));
+builder.Services.AddScoped(typeof(IPositionRepository), typeof(PositionRepository));
 //mapper
 var mapperConfig = new MapperConfiguration(mapperConfig =>
 {
     mapperConfig.AddProfile(new EmployeeProfile());
     mapperConfig.AddProfile(new GenderProfile());
+    mapperConfig.AddProfile(new UnitProfile());
+    mapperConfig.AddProfile(new PositionProfile());
 });
 IMapper mapper = mapperConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
