@@ -4,6 +4,59 @@
         <name>Lubre.WebAPI</name>
     </assembly>
     <members>
+        <member name="F:Lubre.WebAPI.Controllers.AddressController._addressRepository">
+            <summary>
+            receives by parameter the application in Address and we inject it
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="address"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.AddressController.GetAllAsync">
+            <summary>
+            get a list of address objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.AddressController.GetOne(System.Guid)">
+            <summary>
+            get a address object
+            </summary>
+            <remarks>
+            receives an id from the client and returns an object of type address
+            </remarks>
+            <param name="id">object id</param>
+            <returns>unit object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.AddressController.Update(System.Guid,Lubre.Repository.DataTransferObject.Incoming.RegisterAddressRequestDTO)">
+            <summary>
+            update a address objetc by id
+            </summary>
+            <remarks>
+            Receive the object to modify, look for the address by id, map the entities request the update
+            </remarks>
+            <param name="dto"></param>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.AddressController.Delete(System.Guid)">
+            <summary>
+            Delete a address object by id
+            </summary>
+            <remarks>
+             Receive the object to deleted, look for the address by id, request the delete
+            </remarks>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
         <member name="F:Lubre.WebAPI.Controllers.EmployeeController._employeeRepository">
             <summary>
             receives by parameter the application in Employee and we inject it
@@ -156,6 +209,59 @@
             </summary>
             <remarks>
              Receive the object to deleted, look for the position by id, request the delete
+            </remarks>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="F:Lubre.WebAPI.Controllers.TownController._townRepository">
+            <summary>
+            receives by parameter the application in Unit and we inject it
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="town"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.TownController.GetAllAsync">
+            <summary>
+            get a list of town objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.TownController.GetOne(System.Guid)">
+            <summary>
+            get a unit object
+            </summary>
+            <remarks>
+            receives an id from the client and returns an object of type unit
+            </remarks>
+            <param name="id">object id</param>
+            <returns>unit object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.TownController.Update(System.Guid,Lubre.Repository.DataTransferObject.Incoming.RegisterTownRequestDTO)">
+            <summary>
+            update a town objetc by id
+            </summary>
+            <remarks>
+            Receive the object to modify, look for the town by id, map the entities request the update
+            </remarks>
+            <param name="dto"></param>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.TownController.Delete(System.Guid)">
+            <summary>
+            Delete a town object by id
+            </summary>
+            <remarks>
+             Receive the object to deleted, look for the town by id, request the delete
             </remarks>
             <param name="id"></param>
             <returns>response object</returns>
