@@ -57,6 +57,64 @@
             <response code="200"> OK. returns the requested object </response>
             <response code="400"> NotFound. returns the requested object was not found </response>
         </member>
+        <member name="F:Lubre.WebAPI.Controllers.CountryController._countryRepository">
+            <summary>
+            receives by parameter the application in Country and we inject it
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="country"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.CountryController.GetAllAsync">
+            <summary>
+            get a list of country objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.CountryController.GetOne(System.Guid)">
+            <summary>
+            get a country object
+            </summary>
+            <remarks>
+            receives an id from the client and returns an object of type country
+            </remarks>
+            <param name="id">object id</param>
+            <returns>unit object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.CountryController.Update(System.Guid,Lubre.Repository.DataTransferObject.Incoming.RegisterCountryRequestDTO)">
+            <summary>
+            update a country objetc by id
+            </summary>
+            <remarks>
+            Receive the object to modify, look for the country by id, map the entities request the update
+            </remarks>
+            <param name="dto"></param>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.CountryController.Delete(System.Guid)">
+            <summary>
+            Delete a country object by id
+            </summary>
+            <remarks>
+             Receive the object to deleted, look for the country by id, request the delete
+            </remarks>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.DefaultController.Get">
+            <summary>
+            Default controller
+            </summary>
+        </member>
         <member name="F:Lubre.WebAPI.Controllers.EmployeeController._employeeRepository">
             <summary>
             receives by parameter the application in Employee and we inject it
@@ -209,6 +267,59 @@
             </summary>
             <remarks>
              Receive the object to deleted, look for the position by id, request the delete
+            </remarks>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="F:Lubre.WebAPI.Controllers.StateController._stateRepository">
+            <summary>
+            receives by parameter the application in State and we inject it
+            </summary>
+            <remarks>
+            
+            </remarks>
+            <param name="state"></param>
+            <param name="mapper"></param>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.StateController.GetAllAsync">
+            <summary>
+            get a list of state objects
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.StateController.GetOne(System.Guid)">
+            <summary>
+            get a state object
+            </summary>
+            <remarks>
+            receives an id from the client and returns an object of type state
+            </remarks>
+            <param name="id">object id</param>
+            <returns>unit object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.StateController.Update(System.Guid,Lubre.Repository.DataTransferObject.Incoming.RegisterStateRequestDTO)">
+            <summary>
+            update a stateobjetc by id
+            </summary>
+            <remarks>
+            Receive the object to modify, look for the state by id, map the entities request the update
+            </remarks>
+            <param name="dto"></param>
+            <param name="id"></param>
+            <returns>response object</returns>
+            <response code="200"> OK. returns the requested object </response>
+            <response code="400"> NotFound. returns the requested object was not found </response>
+        </member>
+        <member name="M:Lubre.WebAPI.Controllers.StateController.Delete(System.Guid)">
+            <summary>
+            Delete a state object by id
+            </summary>
+            <remarks>
+             Receive the object to deleted, look for the state by id, request the delete
             </remarks>
             <param name="id"></param>
             <returns>response object</returns>

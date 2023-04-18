@@ -8,7 +8,7 @@ public class EmployeeProfile : Profile
 {
     public EmployeeProfile()
     {
-        CreateMap<RegisterGenderRequestDTO,Employee>()
+        CreateMap<RegisterEmployeeRequestDTO, Employee>()
             .ForMember(
                 dest => dest.Id,
                 opt => opt.MapFrom(src => Guid.NewGuid()))
@@ -41,6 +41,10 @@ public class EmployeeProfile : Profile
         //  .ForMember( d => d.EmployeeFirstName, 
         //              o => o.MapFrom(
         //              s => s.PrimerNombre));   
+
+
+        
+
 
     }
 }

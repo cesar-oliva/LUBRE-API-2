@@ -44,6 +44,8 @@ builder.Services.AddScoped(typeof(IUnitRepository), typeof(UnitRepository));
 builder.Services.AddScoped(typeof(IPositionRepository), typeof(PositionRepository));
 builder.Services.AddScoped(typeof(IAddressRepository), typeof(AddressRepository));
 builder.Services.AddScoped(typeof(ITownRepository), typeof(TownRepository));
+builder.Services.AddScoped(typeof(IStateRepository), typeof(StateRepository));
+builder.Services.AddScoped(typeof(ICountryRepository), typeof(CountryRepository));
 //mapper
 var mapperConfig = new MapperConfiguration(mapperConfig =>
 {
@@ -53,6 +55,8 @@ var mapperConfig = new MapperConfiguration(mapperConfig =>
     mapperConfig.AddProfile(new PositionProfile());
     mapperConfig.AddProfile(new AddressProfile());
     mapperConfig.AddProfile(new TownProfile());
+    mapperConfig.AddProfile(new StateProfile());
+    mapperConfig.AddProfile(new CountryProfile());
 });
 IMapper mapper = mapperConfig.CreateMapper();
 builder.Services.AddSingleton(mapper);
