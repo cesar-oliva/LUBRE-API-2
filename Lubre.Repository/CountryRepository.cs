@@ -22,7 +22,7 @@ public class CountryRepository : ICountryRepository, IDisposable
 
     public async Task<ResponseCountryRequestDTO> AddAsync(RegisterCountryRequestDTO country)
     {
-        var newCountry = _mapper.Map<State>(country);
+        var newCountry = _mapper.Map<Country>(country);
         await _dbc.AddAsync(newCountry);
         await _dbc.SaveChangesAsync();
         _dbc.Entry(newCountry).State = EntityState.Unchanged;
@@ -43,10 +43,11 @@ public class CountryRepository : ICountryRepository, IDisposable
     public async Task<IEnumerable<ResponseCountryRequestDTO>> GetAllAsync()
     {
         List<ResponseCountryRequestDTO> CountryDTO = new();
+
         var ListCountries = await _dbc.Countries
                             .Include(s => s.States)
                             .ToListAsync();
-
+                            
         foreach (var item in ListCountries)
         {
             var newCountriesDto = _mapper.Map<ResponseCountryRequestDTO>(item);

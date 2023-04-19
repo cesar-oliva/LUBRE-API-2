@@ -11,10 +11,22 @@ public class CountryProfile : Profile
         CreateMap<RegisterCountryRequestDTO, Country>()
             .ForMember(
                 dest => dest.Id,
-                opt => opt.MapFrom(src => Guid.NewGuid()));
+                opt => opt.MapFrom(src => Guid.NewGuid()))
+            .ForMember(
+                dest => dest.Name,
+                opt => opt.MapFrom(src => src.CountryName));
 
-        CreateMap<Country, ResponseCountryRequestDTO>();
+        CreateMap<Country, ResponseCountryRequestDTO>()
+            .ForMember(
+                dest => dest.CountryName,
+                opt => opt.MapFrom(src => src.Name));
 
-        CreateMap<ResponseCountryRequestDTO,Country>();    
+        CreateMap<ResponseCountryRequestDTO,Country>()
+            .ForMember(
+                    dest => dest.Name,
+                    opt => opt.MapFrom(src => src.CountryName))
+            .ForMember(
+                    dest => dest.States,
+                    opt => opt.Ignore());    
     } 
 }

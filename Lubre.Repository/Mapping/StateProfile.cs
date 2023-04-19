@@ -11,13 +11,22 @@ public class StateProfile : Profile
         CreateMap<RegisterStateRequestDTO, State>()
             .ForMember(
                 dest => dest.Id,
-                opt => opt.MapFrom(src => Guid.NewGuid()));
+                opt => opt.MapFrom(src => Guid.NewGuid()))
+            .ForMember(
+                dest => dest.Name,
+                opt => opt.MapFrom(src => src.StateName));
 
         CreateMap<State, ResponseStateRequestDTO>()
             .ForMember(
                 dest => dest.CountryName,
-                opt => opt.MapFrom(src => src.Country.Name));
+                opt => opt.MapFrom(src => src.Country.Name))
+            .ForMember(
+                dest => dest.StateName,
+                opt => opt.MapFrom(src => src.Name));
 
-        CreateMap<ResponseStateRequestDTO,State>();    
+        CreateMap<ResponseStateRequestDTO,State>()
+            .ForMember(
+                    dest => dest.Name,
+                    opt => opt.MapFrom(src => src.StateName));     
     } 
 }
